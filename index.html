@@ -9,14 +9,7 @@
 </head>
 <body>
   <main class="app">
-    <header class="hero">
-      <div>
-        <h1>Andy’s Goals</h1>
-        <p>AI Personal Learning Hub</p>
-      </div>
-      <span class="badge">AI</span>
-    </header>
-
+    <header class="hero"><div><h1>Andy’s Goals</h1><p>AI Personal Learning Hub</p></div><span class="badge">AI</span></header>
     <nav class="nav">
       <button onclick="showPage('heli')">🚁 Helicopter</button>
       <button onclick="showPage('spanish')">🇪🇸 Spanish</button>
@@ -26,35 +19,43 @@
 
     <section id="heli" class="page active">
       <h2>🚁 Helicopter Academy</h2>
-      <p>從零開始，由 AI 即時生成課程與複習題。</p>
+      <p>從零開始，逐章學習直升機原理、系統與安全知識。</p>
+      <label for="chapter">選擇課程章節</label>
       <select id="chapter"></select>
       <div class="actions">
         <button class="primary" onclick="generateLesson()">Generate Lesson</button>
-        <button onclick="generateQuiz()">Generate Quiz</button>
+        <button onclick="generateQuiz('heli')">Start Quiz</button>
       </div>
-      <article id="heliOut" class="output">選擇章節後開始。</article>
+      <article id="heliOut" class="output">選擇章節後開始學習。</article>
+      <section id="heliQuiz" class="quiz-area"></section>
+      <section id="heliWeak" class="weak-panel"></section>
     </section>
 
     <section id="spanish" class="page">
       <h2>🇪🇸 Spanish Academy</h2>
-      <p>每週 4 天、每天 10 個單字，從零開始。</p>
-      <button class="primary" onclick="generateSpanish()">Generate Today’s 10 Words</button>
+      <p>每週 4 天、每天 10 個單字，從零開始累積西班牙文。</p>
+      <div class="actions">
+        <button class="primary" onclick="generateSpanish()">Generate Today’s 10 Words</button>
+        <button onclick="generateQuiz('spanish')">Start Spanish Quiz</button>
+      </div>
       <article id="spanishOut" class="output">今天的課程會由 AI 生成。</article>
+      <section id="spanishQuiz" class="quiz-area"></section>
+      <section id="spanishWeak" class="weak-panel"></section>
     </section>
 
     <section id="invest" class="page">
       <h2>📈 Investing</h2>
-      <p>投資學習區正在建置中。</p>
+      <p>投資學習區正在建置中。原有頁面保留。</p>
     </section>
 
     <section id="tutor" class="page">
       <h2>🤖 AI Tutor</h2>
+      <p>可以詢問直升機原理、航空知識或西班牙文學習問題。</p>
       <textarea id="question" placeholder="例如：什麼是 Translational Lift？"></textarea>
       <button class="primary" onclick="askTutor()">Ask AI</button>
       <article id="tutorOut" class="output"></article>
     </section>
   </main>
-
   <script src="/app.js"></script>
 </body>
 </html>
