@@ -1,1 +1,43 @@
-window.FIXED_CHAPTERS = ["Chapter 1 — Helicopter Fundamentals", "Chapter 2 — The Four Forces", "Chapter 3 — Rotor Blades & Airfoils", "Chapter 4 — How a Helicopter Generates Lift", "Chapter 5 — Cyclic", "Chapter 6 — Collective", "Chapter 7 — Anti-torque System", "Chapter 8 — Swashplate", "Chapter 9 — Rotor Disc", "Chapter 10 — Angle of Attack", "Chapter 11 — Translational Lift", "Chapter 12 — Ground Effect", "Chapter 13 — Dissymmetry of Lift", "Chapter 14 — Retreating Blade Stall", "Chapter 15 — Autorotation", "Chapter 16 — Turboshaft Engine", "Chapter 17 — Transmission", "Chapter 18 — Main Rotor System", "Chapter 19 — Tail Rotor System"];
+window.HELICOPTER_CHAPTERS = [
+  {n:1,t:"Helicopter Fundamentals",zh:"直升機基礎",desc:"認識直升機、主要部件與基本飛行概念"},
+  {n:2,t:"The Four Forces",zh:"四大作用力",desc:"升力、重力、推力、阻力的基本概念"},
+  {n:3,t:"Rotor Blades & Airfoils",zh:"旋翼葉片與翼型",desc:"旋翼葉片與翼型的基本原理"},
+  {n:4,t:"How a Helicopter Generates Lift",zh:"直升機如何產生升力",desc:"從旋翼運動理解升力"},
+  {n:5,t:"Cyclic",zh:"週期變距",desc:"週期變距的基本作用"},
+  {n:6,t:"Collective",zh:"總距",desc:"總距控制的基本作用"},
+  {n:7,t:"Anti-torque System",zh:"反扭矩系統",desc:"反扭矩與偏航控制概念"},
+  {n:8,t:"Swashplate",zh:"斜盤",desc:"斜盤在旋翼操縱中的作用"},
+  {n:9,t:"Rotor Disc",zh:"旋翼盤",desc:"旋翼盤與飛行姿態概念"},
+  {n:10,t:"Angle of Attack",zh:"攻角",desc:"攻角與氣動力關係"},
+  {n:11,t:"Translational Lift",zh:"平移升力",desc:"前飛時的升力變化概念"},
+  {n:12,t:"Ground Effect",zh:"地面效應",desc:"接近地面時的氣動效應"},
+  {n:13,t:"Dissymmetry of Lift",zh:"升力不對稱",desc:"前進側與後退側的升力差異"},
+  {n:14,t:"Retreating Blade Stall",zh:"後退槳葉失速",desc:"後退側槳葉失速的基本概念"},
+  {n:15,t:"Autorotation",zh:"自轉",desc:"自轉飛行的基本原理"},
+  {n:16,t:"Turboshaft Engine",zh:"渦輪軸發動機",desc:"渦輪軸發動機基本概念"},
+  {n:17,t:"Transmission",zh:"傳動系統",desc:"發動機至旋翼的動力傳遞概念"},
+  {n:18,t:"Main Rotor System",zh:"主旋翼系統",desc:"主旋翼系統的基本構成"},
+  {n:19,t:"Tail Rotor System",zh:"尾旋翼系統",desc:"尾旋翼系統的基本作用"}
+];
+
+window.HELICOPTER_LESSONS = {
+  1: `<h2>Chapter 1 — Helicopter Fundamentals（直升機基礎）</h2><p>本章先建立直升機、主旋翼、尾旋翼與基本操縱的基礎概念。正式章節教材固定，不會每次重新生成。</p>`,
+  2: `<h2>Chapter 2 — The Four Forces（四大作用力）</h2><p>介紹升力、重力、推力與阻力，以及四者在飛行中的基本關係。</p>`,
+  3: `<h2>Chapter 3 — Rotor Blades & Airfoils（旋翼葉片與翼型）</h2><p>介紹旋翼葉片與翼型，以及其基本氣動概念。</p>`,
+  4: `<h2>Chapter 4 — How a Helicopter Generates Lift（直升機如何產生升力）</h2><p>從旋翼相對氣流與氣動力概念理解升力來源。</p>`,
+  5: `<h2>Chapter 5 — Cyclic（週期變距）</h2><p>介紹週期變距如何影響旋翼盤的姿態與直升機運動。</p>`,
+  6: `<h2>Chapter 6 — Collective（總距）</h2><p>介紹總距改變主旋翼槳葉共同槳距的基本概念。</p>`,
+  7: `<h2>Chapter 7 — Anti-torque System（反扭矩系統）</h2><p>介紹反扭矩系統與偏航控制的基本原理。</p>`,
+  8: `<h2>Chapter 8 — Swashplate（斜盤）</h2><p>介紹斜盤如何將操縱輸入傳遞至旋翼槳葉。</p>`,
+  9: `<h2>Chapter 9 — Rotor Disc（旋翼盤）</h2><p>介紹旋翼盤與直升機姿態、飛行方向的基本關係。</p>`,
+  10: `<h2>Chapter 10 — Angle of Attack（攻角）</h2><p>介紹攻角與翼型氣動力的基本關係。</p>`,
+  11: `<h2>Chapter 11 — Translational Lift（平移升力）</h2><p>介紹直升機進入前飛後，旋翼效率改變的基本概念。</p>`,
+  12: `<h2>Chapter 12 — Ground Effect（地面效應）</h2><p>介紹直升機接近地面時的基本氣動效應。</p>`,
+  13: `<h2>Chapter 13 — Dissymmetry of Lift（升力不對稱）</h2><p>介紹前進側與後退側槳葉相對氣流不同所造成的升力差異。</p>`,
+  14: `<h2>Chapter 14 — Retreating Blade Stall（後退槳葉失速）</h2><p>介紹後退側槳葉在特定飛行狀態下可能出現的失速概念。</p>`,
+  15: `<h2>Chapter 15 — Autorotation（自轉）</h2><p>介紹自轉飛行的基本氣動原理與概念。</p>`,
+  16: `<h2>Chapter 16 — Turboshaft Engine（渦輪軸發動機）</h2><p>介紹渦輪軸發動機如何提供軸功率的基礎概念。</p>`,
+  17: `<h2>Chapter 17 — Transmission（傳動系統）</h2><p>介紹傳動系統在發動機與旋翼之間的基本作用。</p>`,
+  18: `<h2>Chapter 18 — Main Rotor System（主旋翼系統）</h2><p>介紹主旋翼系統的基本構成與作用。</p>`,
+  19: `<h2>Chapter 19 — Tail Rotor System（尾旋翼系統）</h2><p>介紹尾旋翼系統與反扭矩、偏航控制的基本概念。</p>`
+};

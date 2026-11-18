@@ -1,0 +1,3080 @@
+[
+  {
+    "section": "系統維件",
+    "number": 1,
+    "page": 1,
+    "question": "250-C20J 發動機提供多少馬力？",
+    "answer": "發動機具420匹馬力，可提供317匹超飛馬力及270匹持續操作馬力。",
+    "restricted": false,
+    "id": 1
+  },
+  {
+    "section": "系統維件",
+    "number": 2,
+    "page": 1,
+    "question": "引擎拉力與輸出馬力比",
+    "answer": "最大持續馬力：扭力85%，輸出馬力270匹；超飛馬力：扭力100%（時限5分鐘），輸出馬力317匹；暫時馬力：扭力110%（時限5秒鐘但嚴禁使用），輸出馬力348匹。",
+    "restricted": false,
+    "id": 2
+  },
+  {
+    "section": "系統維件",
+    "number": 3,
+    "page": 1,
+    "question": "主旋翼數據資料",
+    "answer": "旋翼數：2片；直徑：33呎4吋；翼弦：13吋；扭曲度：－10度；扭力100%旋翼轉速：395 RPM。",
+    "restricted": false,
+    "id": 3
+  },
+  {
+    "section": "系統維件",
+    "number": 4,
+    "page": 1,
+    "question": "尾旋翼數據資料",
+    "answer": "旋翼數：2片；直徑：5呎5吋；翼弦：5.25吋；葉片之變矩角度：23度；扭力100%旋翼轉速：2560 RPM。",
+    "restricted": false,
+    "id": 4
+  },
+  {
+    "section": "系統維件",
+    "number": 5,
+    "page": 1,
+    "question": "機身數據",
+    "answer": "全長：39呎11吋；全高：9呎7.5吋；總重3,200磅時之寬度：6呎3.5吋。",
+    "restricted": false,
+    "id": 5
+  },
+  {
+    "section": "系統維件",
+    "number": 6,
+    "page": 1,
+    "question": "貨物艙數據",
+    "answer": "全長：39吋；地板寬度：46.75吋；最高高度：34.25吋。",
+    "restricted": false,
+    "id": 6
+  },
+  {
+    "section": "系統維件",
+    "number": 7,
+    "page": 1,
+    "question": "貨物區容積數據",
+    "answer": "主貨物區：40立方呎；行李艙：16立方呎。",
+    "restricted": false,
+    "id": 7
+  },
+  {
+    "section": "系統維件",
+    "number": 8,
+    "page": 1,
+    "question": "簡述座椅安全功能？",
+    "answer": "座椅底部為鋁製蜂巢板結構，在重落地的狀況下具有吸收／減震達30G。",
+    "restricted": false,
+    "id": 8
+  },
+  {
+    "section": "系統維件",
+    "number": 9,
+    "page": 1,
+    "question": "儀表系統由哪4大部分組成？",
+    "answer": "飛行儀表、導航儀表、動力儀表、雜項儀表。",
+    "restricted": false,
+    "id": 9
+  },
+  {
+    "section": "系統維件",
+    "number": 10,
+    "page": 2,
+    "question": "簡 述 雷達 高 度 表 ?",
+    "answer": "雷達 高 度 表 以 呎 為 單位 , 提 供 飛 機 距離 地 面 實 際 高 度 -10~2000 呎 高 度 , 當 失效 旗 出 現時 表 示 訊 號 不 可 靠 , 而 飛行 高 度 到 達 設 定 游標 高 度 時 ,DH( 決 定 高 度 ) 警 告 燈 亮 。 12.",
+    "restricted": false,
+    "id": 10
+  },
+  {
+    "section": "系統維件",
+    "number": 11,
+    "page": 2,
+    "question": "簡 述 垂直 速率 表 ?",
+    "answer": "AURRAREN HRE MEERE R/ ETERA h 0~+6000 呎 或 -6000 RAF 13.",
+    "restricted": false,
+    "id": 11
+  },
+  {
+    "section": "系統維件",
+    "number": 12,
+    "page": 2,
+    "question": "導航 儀表 區 分 哪些 儀表 ?",
+    "answer": "備用 磁 羅 盤 、 水 平 獎 態 儀 (HSI)、IFR 無 線 電磁 暴 盤 (RMI) 。 14.",
+    "restricted": false,
+    "id": 12
+  },
+  {
+    "section": "系統維件",
+    "number": 13,
+    "page": 2,
+    "question": "簡 述 水 平 狀 態 儀 (HSI)?",
+    "answer": "可 提供 磁 方向 顯示 , 當 此 表 與 VOR/ ILS > ADF 及 全 球 定位 系 統 (GPS) 等 導航 接收 器 連 線 時 , 即 成 為 多 功 能 位 表; 顯示 航向 去 (T0)/ 來 自 (FORM)、 選 擇 之 航向 及 航道 (COURSE)/ 定 位 點 (LOCALIZER)/ 下 滑 道 (GLIDES LOPE) 的 偏 移 量 , 當 (HSI) 不 可 敬 時 會 出 現 紅色 失效 鄰 。 15.",
+    "restricted": false,
+    "id": 13
+  },
+  {
+    "section": "系統維件",
+    "number": 14,
+    "page": 2,
+    "question": "fat IFR 無 線 電磁 羅盤 (RMI)?",
+    "answer": "由 同 步 陀螺 儀 及 1、2 號 指針 所 組 成 , 以 顯示 導航 方位 , 而 面板 上 的 開 關 可 選擇 VOR > ADF 或 GPS 等 訊 號 ; 當 (RMI) 不 可 計時 會 出 現 紅色 失效 旗 。 16.",
+    "restricted": false,
+    "id": 14
+  },
+  {
+    "section": "系統維件",
+    "number": 15,
+    "page": 2,
+    "question": "簡 櫥 動力 儀表 ?",
+    "answer": "RRAN 轉 束 表 ( 雙 轉 速 表 )、Nl 包 咀 產生 器 轉 述 表 、 渦 輪 排 氣溫 度 表 、 發 動機 滑 油 溫度 / 壓 力 表 、 傳動 箱 滑 油 溫度 / 壓 力 表 、 發 動機 扭力 表 、 油 壓 力 表 (儀表 右 半 部 )、 類 油 流量 表 、 類 油 量 表 17.",
+    "restricted": false,
+    "id": 15
+  },
+  {
+    "section": "系統維件",
+    "number": 16,
+    "page": 2,
+    "question": "MENAN 轉 速 表 ?( 雙 轉 速 表 )",
+    "answer": "以 百 分 比 (%) 為 單位 , 提 供 疲 異 及 動力 渴 輪 轉 速 讀 值 , 在 正常 扣 作 下 , 上 類 異 轉速 指 針 與 動力 渦輪 轉 可 指 針 會 同 步 指示 綠 線 範圍 內 。 18.",
+    "restricted": false,
+    "id": 16
+  },
+  {
+    "section": "系統維件",
+    "number": 17,
+    "page": 2,
+    "question": "簡 述 N1 氣體 產生 器 韓 束 表 ?",
+    "answer": "以 百 分 比 (和 %) 為 單位 , 提 供 氣體 產生 器 運轉 的 讀 值 , 儀 表 內 較 小 的 刻度 每 格 為 ] 人, 而 外 圍 較 大 的 刻度 每 格 為 2 和 %, 儀 表 所 需 電 源 是 由 氣體 產生 器 轉 可 表 發 電子 提供 。 19.",
+    "restricted": false,
+    "id": 17
+  },
+  {
+    "section": "系統維件",
+    "number": 18,
+    "page": 2,
+    "question": "簡 巡 渦輪 排 氣溫 度 表 ?",
+    "answer": "渦輪 排 氣溫 度 是 由 4 根 熱 電 埔 所 測 得 , 當 溫度 超 過 限制 範圍 時 , 警 告 燈 亮 。 20.",
+    "restricted": false,
+    "id": 18
+  },
+  {
+    "section": "系統維件",
+    "number": 19,
+    "page": 2,
+    "question": "簡 述 發 動機 扭力 表 ?",
+    "answer": "為 壓力 管 路 的 一 部 分 , 扭 力 值 以 百 分 比 (%) 為 單位 , 直 接 讀 取 威 應 器 上 的 壓力 。",
+    "restricted": false,
+    "id": 19
+  },
+  {
+    "section": "系統維件",
+    "number": 20,
+    "page": 2,
+    "question": "燃油 流量 表 能 提供 哪些 資料 ?",
+    "answer": "提供 燃油 流量 、 所 剩 油 量 、 耐 航 時 間 、45 分 氏 低 油 量 警告 燈 。",
+    "restricted": false,
+    "id": 20
+  },
+  {
+    "section": "系統維件",
+    "number": 21,
+    "page": 2,
+    "question": "雜項 儀表 區 分 哪些 儀表 ?",
+    "answer": "發 動機 計時 器 、 時 氏 、 大 氣溫 度 表 、 負 載 表 (儀表 左 半 部 ) 。",
+    "restricted": false,
+    "id": 21
+  },
+  {
+    "section": "系統維件",
+    "number": 22,
+    "page": 2,
+    "question": "簡 述 燃油 關 斷 辦 (訓練 千 冊 112. 10. 30 PI 28)",
+    "answer": "位 於 直升機 右側 的 燃 油 室 上 方 , 其 為 一 個 電力 運作 電動 閱 , 可 關 斷 送 往 發 動機 的 -2-",
+    "restricted": false,
+    "id": 22
+  },
+  {
+    "section": "系統維件",
+    "number": 23,
+    "page": 3,
+    "question": "緊急 位 置 傳送 器 可 傳送 之 頻率 及 時 間 ?",
+    "answer": "發 送 121.5/243,0 的 緊急 頻率 5 0 秒 1 次 、 最 長 5 2 0 毫秒, 至 少 5 0 小 時 直到 電池 耗 壹 。",
+    "restricted": false,
+    "id": 23
+  },
+  {
+    "section": "系統維件",
+    "number": 24,
+    "page": 3,
+    "question": "集 體 桿 控制 盒 區 分 哪些 開 關 ? (訓練 手 冊 112. 10. 30 P1-32)",
+    "answer": "(1) 手 油門 裝置 (4) 轉速 調 速 器 (2) 落 地 燈 (5) 引 學 啟動 鈕 (3) 搜 索 燈 (6) 慢 車 止 檔 釋放 鈕 26.",
+    "restricted": false,
+    "id": 24
+  },
+  {
+    "section": "系統維件",
+    "number": 25,
+    "page": 3,
+    "question": "BILERA?",
+    "answer": "為 250 RARR BAREA mR kE 27.",
+    "restricted": false,
+    "id": 25
+  },
+  {
+    "section": "系統維件",
+    "number": 26,
+    "page": 3,
+    "question": "搜索 燈 規格 ?",
+    "answer": "為 450 瓦 可 調式 燈光 。 28.",
+    "restricted": false,
+    "id": 26
+  },
+  {
+    "section": "系統維件",
+    "number": 27,
+    "page": 3,
+    "question": "慢車 止 檔 釋放 鈕 功用 為 何 ?",
+    "answer": "慢車 止 檔 設定 在 N1 氣體 產生 器 60%~64% 轉 速 位 置 , 主 要 避免 人 員 在 飛行 中 , 不 慎 關 斷 手 油門 。 29.",
+    "restricted": false,
+    "id": 27
+  },
+  {
+    "section": "系統維件",
+    "number": 28,
+    "page": 3,
+    "question": "飛機 機 身 由 哪 三 個 部 分 組 成 ?",
+    "answer": "MRAR PRIR AKR",
+    "restricted": false,
+    "id": 28
+  },
+  {
+    "section": "系統維件",
+    "number": 29,
+    "page": 3,
+    "question": "系統維件 第29題",
+    "answer": "Rkir? (kEm 112. 10.30 P1-41) RH AHE ARRERA KEREDE ALA 31",
+    "restricted": false,
+    "id": 29
+  },
+  {
+    "section": "系統維件",
+    "number": 30,
+    "page": 3,
+    "question": "AKAA?",
+    "answer": "用 以 支撐 尾 旋 殿 傳動 軸 、 尾 許 婚 、 芥 輪 箱 、 水 平安 定 面 、 直 几 翅 、 傳 動 軸 電 承 支撐 架 。 32.",
+    "restricted": false,
+    "id": 30
+  },
+  {
+    "section": "系統維件",
+    "number": 31,
+    "page": 3,
+    "question": "水 平安 定 面 功 用 ?",
+    "answer": "當 飛機 在 任何 空 速 下 飛行 時 , 均 能 保持 其 機 身 的 水 平 究 態 。 33.",
+    "restricted": false,
+    "id": 31
+  },
+  {
+    "section": "系統維件",
+    "number": 32,
+    "page": 3,
+    "question": "直 慣 想 位 置 及 功用 ?",
+    "answer": "安裝 於 尾 柯 末端, 其 作用 在 保持 飛機 方向 的 穩 性 前 緣 設 計 為 中 心 線 偏 右 以 5# 度 的 角度 實施 安裝 , 可 以 減少 向 前 飛行 時 尾 旋 翼 所 產生 的 推 力 ARRE PERREN KARRREFAFRIN ARR A 100-110 E2 RITE ERD Mi E e",
+    "restricted": false,
+    "id": 32
+  },
+  {
+    "section": "系統維件",
+    "number": 33,
+    "page": 3,
+    "question": "系統維件 第33題",
+    "answer": "整流 單 由 哪 四 大 部 分 組 成 及 材質 為 何 ? (訓練 手 冊 112. 10. 30 P1-45) 前 整流 單 、 導 引 整 流 只 、 發 動機 整流 嘲 總 成 、 後 整流 單 ; 結構 為 鋁 合金 、 玻 璃 纖維 、 蜂 果 等 材質 。 35.",
+    "restricted": false,
+    "id": 33
+  },
+  {
+    "section": "系統維件",
+    "number": 34,
+    "page": 3,
+    "question": "沙 塵 分 離 器 功用 ?",
+    "answer": "可 持續 發 動機 吸入 的 沙土 、 灰 塵 或 其 他 異物 等 , 以 保護 發 動機 。 36.",
+    "restricted": false,
+    "id": 34
+  },
+  {
+    "section": "系統維件",
+    "number": 35,
+    "page": 3,
+    "question": "濕 小 導管 數 量 及 功用 ?",
+    "answer": "分 離 器 內 有 281 根 渦 渦 導 管 , 所 有 進 入 發 動機 的 空氣 都 必須 先 經 導管 過 濾 , 以 確保 發 動機 不 受到 損傷 。 37.",
+    "restricted": false,
+    "id": 35
+  },
+  {
+    "section": "系統維件",
+    "number": 36,
+    "page": 3,
+    "question": "壓縮 器 對 馬力 (扭力) 之 影響 ?",
+    "answer": "裝 設 沙 塵 分 離 器 後 , 進 氣口 內 壓力 降低 , 並 且 持續 使用 釋放 空氣 沖洗 系 統 , 如 此 將 降低 3% 可 用 動力 / 握力 值 。 38.",
+    "restricted": false,
+    "id": 36
+  },
+  {
+    "section": "系統維件",
+    "number": 37,
+    "page": 3,
+    "question": "撞 線 保護 系 統 功用 ?",
+    "answer": "可 提供 水 平 弛 索 障礙 或 電 作 的 撞擊 防護 , 整 體系 統 包含 上 割斷 器 總 成 、 紅 繩 導 引 / 切 割 器 總 成 、 下 割 斷 器 總 成 若 無 法 避免 撞 線 或 閃避 不 及 時 ,WSPS 可 提供 正面 9 O% 的 保護 力 。 sgi",
+    "restricted": false,
+    "id": 37
+  },
+  {
+    "section": "系統維件",
+    "number": 38,
+    "page": 4,
+    "question": "鈦 合金 壓縮 器 之 組 件 及 功用 ?",
+    "answer": "為 6 級 軸 向 、1 級 離心 式 的 壓縮 組 件 , 用 以 增加 空氣 的 密度 及 空氣 的 流速 、 而 將 壓縮 後 的 空氣 經 由 發 動 機 外 部 2 根 導 管 , 直 接 導 向 燃燒 段 內 燃燒, 並 與 釋放 空氣 系 統 結合 , 使 加 速 時 能 調節 一 些 空氣 至 機 外 。",
+    "restricted": false,
+    "id": 38
+  },
+  {
+    "section": "系統維件",
+    "number": 39,
+    "page": 4,
+    "question": "燃燒 段 由 哪些 部 分 所 組 成 ?",
+    "answer": "AR IR KEE MRA",
+    "restricted": false,
+    "id": 39
+  },
+  {
+    "section": "系統維件",
+    "number": 40,
+    "page": 4,
+    "question": "N1 氣體 產生 器 之 齒輪 系 組 件 為 何 ?〔",
+    "answer": "氣體 產生 器 轉 速 表 發 電機 、 燃 油 舟 浦 總 成 、 啟 動機 / 發 電機 、 氣 骸 產 生 器 之 油 控 跨 、 滑 油 償 浦 總 成 、 備 用 發 電機 (儀器 機 型 )。",
+    "restricted": false,
+    "id": 40
+  },
+  {
+    "section": "系統維件",
+    "number": 41,
+    "page": 4,
+    "question": "N2 動力 沁 輪 齒輪 系 組 件 為 何 ?",
+    "answer": "動力 沁 輪 轉 速 表 發 電機 、 動 力 沁 論 調 速 器 、 扭 力 表 (發 動機 內 部 )、 自 由 飛輪 裝置 。",
+    "restricted": false,
+    "id": 41
+  },
+  {
+    "section": "系統維件",
+    "number": 42,
+    "page": 4,
+    "question": "250-C20J 發 動機 運作 時 需要 哪 四 個 階段 ?",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 42
+  },
+  {
+    "section": "系統維件",
+    "number": 43,
+    "page": 4,
+    "question": "油 控 器 系 統 組 成 及 功用 ?",
+    "answer": "組 成 : 氣 體 產 生 器 及 動力 渦輪 調 速 器 等 組 件 組 成 油 控 器 系 統 。 功用 : 用 於 控制 動力 渦 輸 轉速, 防止 氣體 產生 器 超 速 , 可 RINI 及 N2 轉 速 、 砷 縮 器 排放 壓力 門 位 置 及 集 體 桿 位 置 , 以 保持 流量 在 規定 範圍 內 , 此 系 統 可 在 發 動機 啟動 、 加 速 、 調 速 、 減速 、 及 關 車 時 執行 調節 的 功能 。",
+    "restricted": false,
+    "id": 43
+  },
+  {
+    "section": "系統維件",
+    "number": 44,
+    "page": 4,
+    "question": "點 火 激勵 器 功用 ?",
+    "answer": "發 動機 刻 動 時 高 電流 的 主 要 來 源 , 所 需要 的 最 大 電能 , 提 人 競合 氣 燃 燒 點 火 使 用 。",
+    "restricted": false,
+    "id": 44
+  },
+  {
+    "section": "系統維件",
+    "number": 45,
+    "page": 4,
+    "question": "h RERE?",
+    "answer": "N2 動力 湯 輪 有 2 級 螺 恬 齒輪 組 , 可 以 在 扭力 齒輪 軸 上 產生 向 前 的 推 力 , 球 型 軸承 將 齒輪 軸 上 之 推 力 傳送 至 固定 的 把 力 活塞 上 , 當 活塞 出 油 口 係 持 打 開 時 , 渭 油 室內 的 壓力 經 由 附 特 齒 輪 箱 前 方 的 壓力 威 測 器 來 顯示 扭力 值 。",
+    "restricted": false,
+    "id": 45
+  },
+  {
+    "section": "系統維件",
+    "number": 46,
+    "page": 4,
+    "question": "磁性 金 屬 層 偵 測 器 位 於 何 處 ?",
+    "answer": "磁性 金 屬 層 偵 測 器 分 別 安 裝 於 齒輪 箱 底部 及 發 動機 滑 油 排出 口 等 。",
+    "restricted": false,
+    "id": 46
+  },
+  {
+    "section": "系統維件",
+    "number": 47,
+    "page": 4,
+    "question": "燃油 系 統 組 件 由 哪些 部 分 組 成 ?〔",
+    "answer": "類 à RAAR WEB WRB REMER RB MRA e",
+    "restricted": false,
+    "id": 47
+  },
+  {
+    "section": "系統維件",
+    "number": 48,
+    "page": 4,
+    "question": "N1 氣體 產生 器 作動 方式 ?",
+    "answer": "氣體 產生 器 控制 件 是 由 集 體 桿 上 的 手 油門 來 操控 , 其 有 1 根 可 調式 的 操控 鋼 納 , 由 手 油門 尾 端 向 外 連 接 至 發 動機 甲板 上 的 曲 枉 總 成 上 , 而 在 曲 桶 與 油 控 器 轉 軸 上 又 有 ] 根 操控 桿 相 互 連 接 。",
+    "restricted": false,
+    "id": 48
+  },
+  {
+    "section": "系統維件",
+    "number": 49,
+    "page": 4,
+    "question": "N2 靜 降 補償 器 運作 原 理 ?",
+    "answer": "由 一 個 直接 的 機 械 聯 動 裝 置 , 將 集 體 桿 系 統 中 的 止 檔 與 動力 沁 輪 調 速 器 轉 軸 , 祖 互 連 結 而 成 , 當 集 髒 桿 移動 時 , 也 同 時 會 帶 動 調 束 器 轉 電 , 調 速 器 轉 珊 的 移動 可 提供 馬力 表 降 的 補 倘 , 以 防止 轉 速 變動 。",
+    "restricted": false,
+    "id": 49
+  },
+  {
+    "section": "系統維件",
+    "number": 50,
+    "page": 4,
+    "question": "低 油 量 注意 燈亮 時 之 油 量 ?",
+    "answer": "當 低 油 量 注意 燈亮 時 , 油 箱 大 約 尚 餘 12. 6+3 加 例 的 油 量 。 -4-",
+    "restricted": false,
+    "id": 50
+  },
+  {
+    "section": "系統維件",
+    "number": 51,
+    "page": 5,
+    "question": "Maiza?",
+    "answer": "ERIM hih KAA AORA ANE R biR PAN tik EE E REE Fib ih RAE REPA 1 AF FUEL FLLTEI 意 燈 會 亮 在 油 濾 的 頂端 設 有 一 個 紅色 的 按壓 測試 開 關 , 用 以 檢查 燃 注意 燈 的 電路 是 否 正 常 。",
+    "restricted": false,
+    "id": 51
+  },
+  {
+    "section": "系統維件",
+    "number": 52,
+    "page": 5,
+    "question": "動力 傳動 系 組 成 ?",
+    "answer": "包括 自 由 飛輪 裝置 、 主 傳動 軸 、 主 傳動 箱 、 主 話 殿 系 統 、 尾 旋翼 系 統 等 組 成 。",
+    "restricted": false,
+    "id": 52
+  },
+  {
+    "section": "系統維件",
+    "number": 53,
+    "page": 5,
+    "question": "自 由 飛輪 裝置 由 哪些 裝置 所 組 成 ? (讓 練 手冊 112,10.30 P1-84)",
+    "answer": "自 由 飛 蛤 裝置 是 由 發 動機 、 主 傳動 箱 、 主 傳動 軸 所 結合 。",
+    "restricted": false,
+    "id": 53
+  },
+  {
+    "section": "系統維件",
+    "number": 54,
+    "page": 5,
+    "question": "自 由 飛輪 系 統 運 作 原 理 ?",
+    "answer": "將 發 動機 動力 傳送 至 自 由 飛輪 的 外 輪 環 上 , 經 由 止 輪 墊 之 裝置 , 傳 送 至 連接 轉 軸 上 , 當 飛機 進 入 自 動 話 轉 時 , 主 許 盡 帶 動 輸 出 軸 運 轉 , 追 使 自 由 選 輸 與 發 動機 動力 脫 吝 , 使 其 失去 發 動機 動力 時 仍 能 操控 飛機 。",
+    "restricted": false,
+    "id": 54
+  },
+  {
+    "section": "系統維件",
+    "number": 55,
+    "page": 5,
+    "question": "主 傳動 逢 潤 滑 系 統 組 件 及 功用 ?",
+    "answer": "組 件 : 主 傳動 箱 潤滑 系 統 包括 有 稍 滑 、 釋 放 辦 、% 濾 噴 油 嘴 、 威 溫 穫 及 滑 油 冷 卻 器 功用 : 潤滑 系 統 亦 對 發 勳 機 附件 齒輪 箱 上 的 自 由 飛輪 裝置 提供 潤 汕 , 容 量 為 5 A1 公升 )",
+    "restricted": false,
+    "id": 55
+  },
+  {
+    "section": "系統維件",
+    "number": 56,
+    "page": 5,
+    "question": "主 傳動 箱 金 屬 眉 偵 測 器 位 於 何 處 ?",
+    "answer": "主 傳動 箱 上 有 3 個 金屬 層 偵 測 器 ,2 個 位 池 底 部 , 另 一 個 位 於 主 承 桿 軸承 附近 。",
+    "restricted": false,
+    "id": 56
+  },
+  {
+    "section": "系統維件",
+    "number": 57,
+    "page": 5,
+    "question": "主 旋 異 控制 組 件 ?",
+    "answer": "變 向 盤 及 支撐 總 成 、 集 體 槓 桿 及 四 桿 總 成 、 變 向 盤 傳動 總 成 、 變 距 連 桿 總 成 。",
+    "restricted": false,
+    "id": 57
+  },
+  {
+    "section": "系統維件",
+    "number": 58,
+    "page": 5,
+    "question": "何謂 旋 異 系 統 指示 器 ?〔",
+    "answer": "旋 尋 系 統 指示 器 包括 有 雙 輕 速 表 、 扭 力 表 、 族 尋 低 轉 速 注意 燈 ROTER LOW RPM( 轉 速 低 於 大 約 9 0% 注 意 燈 會 亮 ) 及 疾 異 轉 述 /RPM 聲 頻 警告 訊號 (轉 速 低 於 大 約 9 ON 時 , 正 、 副 駕駛 會 由 頭盔 中 聽到 聲 頻 警 ENRE",
+    "restricted": false,
+    "id": 58
+  },
+  {
+    "section": "系統維件",
+    "number": 59,
+    "page": 5,
+    "question": "聲 頻 警告 系 統 有 哪些 ?",
+    "answer": "(1) 引 學 失效 警告 系 統 : 當 氣體 產生 器 低 於 55+3% 時 , 引 學 失效 警告 系 統 會 啟動 產生 連 疆 的 音頻 訊號 (和 急 促 短 音 ) 及 發 動機 失效 警告 燈亮 (DRRR EG A H: ERRIA 90% 時 , 許 殿 低 轉 速 警告 系 統 會 啟動 產生 穩定 音頻 訊號 (長 音 ) 及 烽 異 低 轉 速 警 告 燈 亮 。",
+    "restricted": false,
+    "id": 59
+  },
+  {
+    "section": "系統維件",
+    "number": 60,
+    "page": 5,
+    "question": "ER HEE?",
+    "answer": "能 產生 最 佳 的 空氣 動力 效應 , 最 強 咎 , 也 是 最 單純 的 許 翼 片 , 許 翼 片 翼 弦 的 前 1/3 處 為 主 要 的 正 曲面 , 而 後 2/3 AA PHRA E RRRA -10 度 的 真 面 把 曲 性 。",
+    "restricted": false,
+    "id": 60
+  },
+  {
+    "section": "系統維件",
+    "number": 61,
+    "page": 5,
+    "question": "慣 法 異 傳動 軸 組 件 及 材質 ?",
+    "answer": "前 短 軸 、 滑 油 冷 卻 器 風扇 傳動 軸 、 後 短 軸 及 尾 放 中 傳 動 軸 等 部 分 , 前 短 軸 及 滑 油 冷卻 器 風扇 傳動 軸 為 鋼 製 材質 , 後 短 軸 及 尾 旋 翼 傳動 軸 部 分 為 鋁 製 材質 。",
+    "restricted": false,
+    "id": 61
+  },
+  {
+    "section": "系統維件",
+    "number": 62,
+    "page": 5,
+    "question": "几 旋 翼 總 成 運作 原 理 ?",
+    "answer": "由 三 角 鉸鏈 及 兩 個 可 相 互 更 換 的 葉月 組 成 , 其 變 距 角 度 增加 至 23 度 。 5",
+    "restricted": false,
+    "id": 62
+  },
+  {
+    "section": "系統維件",
+    "number": 63,
+    "page": 1,
+    "question": "系統維件 第63題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 63
+  },
+  {
+    "section": "系統維件",
+    "number": 64,
+    "page": 1,
+    "question": "系統維件 第64題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 64
+  },
+  {
+    "section": "系統維件",
+    "number": 65,
+    "page": 1,
+    "question": "系統維件 第65題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 65
+  },
+  {
+    "section": "系統維件",
+    "number": 66,
+    "page": 1,
+    "question": "系統維件 第66題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 66
+  },
+  {
+    "section": "系統維件",
+    "number": 67,
+    "page": 1,
+    "question": "系統維件 第67題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 67
+  },
+  {
+    "section": "系統維件",
+    "number": 68,
+    "page": 1,
+    "question": "系統維件 第68題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 68
+  },
+  {
+    "section": "系統維件",
+    "number": 69,
+    "page": 1,
+    "question": "系統維件 第69題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 69
+  },
+  {
+    "section": "系統維件",
+    "number": 70,
+    "page": 1,
+    "question": "系統維件 第70題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 70
+  },
+  {
+    "section": "限制學科",
+    "number": 1,
+    "page": 7,
+    "question": "引 學 》",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 71
+  },
+  {
+    "section": "限制學科",
+    "number": 2,
+    "page": 7,
+    "question": "油 溫度 限制",
+    "answer": "(1) 持 續 撮 作 值 :0-107C (2) 最 大 值 :107'C 附註 : 冷 天 氣 開 車 時 , 俐 持 引擎 慢車 於 N1 60-64 範 圍 , 直 到 引擎 滑 油 溫度 達 正常 範圍 內 。 2",
+    "restricted": false,
+    "id": 72
+  },
+  {
+    "section": "限制學科",
+    "number": 3,
+    "page": 7,
+    "question": "引擎 滑 油 壓 力 限制",
+    "answer": "(1) 最 低 值 :50PSI (2)N1 低 於 78. 踢 , 最 低 值 50PS (3)N1 Æ 78. 5-94. 2%, 最 低 值 90PST (4)NI 高 於 94. 2%, 最 低 值 115PSI (5) 最 大 值 :130PSI",
+    "restricted": false,
+    "id": 73
+  },
+  {
+    "section": "限制學科",
+    "number": 4,
+    "page": 7,
+    "question": "傳動 逢 滑 油 溫度 限制",
+    "answer": "(1) 持 續 操作 值 :15-110'C (2) 最 大 值 :110C",
+    "restricted": false,
+    "id": 74
+  },
+  {
+    "section": "限制學科",
+    "number": 5,
+    "page": 7,
+    "question": "傳動 箱 滑 油 壓 力 限制",
+    "answer": "(1) 最 低 值 :30PSI (2) 持 續 操作 值 : 30-50PSI (3) 最 大 值 :70PS:",
+    "restricted": false,
+    "id": 75
+  },
+  {
+    "section": "限制學科",
+    "number": 6,
+    "page": 7,
+    "question": "油 壓 力 限 刺",
+    "answer": "(1) 最 低 值 :4 PS (2) 持 續 操作 值 : 4-30PSI (3) 最 大 值 :30PSI",
+    "restricted": false,
+    "id": 76
+  },
+  {
+    "section": "限制學科",
+    "number": 7,
+    "page": 7,
+    "question": "引擎 啟動 限制",
+    "answer": "啟動 限制 外 電源 啟動 電瓶 啟動 第 一 殲 啟 動 25 秒 鐘 40 秒 鐘 2 間隔 時 n 30 秒 鐘 60 pat 啟動 — 25 rat 40 秒 鐘 — 問 陽 時 間 30 秒 鐘 60 秒 鐘 第 三 殲 啟 動 25 秒 鐘 40 prik 間隔 時 間 30 分 鐘 30 74E",
+    "restricted": false,
+    "id": 77
+  },
+  {
+    "section": "限制學科",
+    "number": 8,
+    "page": 8,
+    "question": "動力 裝置 限制",
+    "answer": "《1)71-88% 避免 於 此 範圍 停留 操作 (2) 最 小 值 :97% (3) 持 續 操 作 值 :97-100% (4) 最 大 值 :100% (5) 105% (15 秒 瞻 間 ) ES: 禁止 使用 手 油門 控制 N2 轉 速 , 愉 緊急 程序 內 另 有 例外 的 操作 。",
+    "restricted": false,
+    "id": 78
+  },
+  {
+    "section": "限制學科",
+    "number": 9,
+    "page": 8,
+    "question": "NI 轉 速 限 制",
+    "answer": "(1) 正 常 操 作 :60-105% (2) 最 大 值 105% (3)106% 購 間 , 最 大 15 秒",
+    "restricted": false,
+    "id": 79
+  },
+  {
+    "section": "限制學科",
+    "number": 10,
+    "page": 8,
+    "question": "扭力 限制",
+    "answer": "(1) 持 續 操作 值 : 0-85% (2) 最 大 持續 操作 值 :85% (3) 起 飛 氛 力 範圍 :85%-100% (4) 最 大 起 飛 氛 力 值 : 100%( 時 限 5 分 鐘 ) (5) 瞬 問 扭力 限制 :110 角 (最 大 5 秒 , 茜 止 於 此 範圍 操作 )",
+    "restricted": false,
+    "id": 80
+  },
+  {
+    "section": "限制學科",
+    "number": 11,
+    "page": 8,
+    "question": "渴 輪 排 氣溫 度 (TOT) 限 制",
+    "answer": "(1) 持續 操作 值 :100-738'C (2) 起 飛馬 力 範圍 :738-810C (3) 最 10°C (5 分 鐘 限 制 ) (4) 810C-843'C6 秒 瞬間 (不 可 故意 於 此 範圍 操作 ) (5) 啟動 及 關 車 時 810-927'C, 最 大 10 秒 (6) 配 有 紅色 警告 燈 之 儀表 , 則 下 列 兩 情況 出 現時 , 紅 燈會 亮 :810~927C10 秒 、927C 或 以 上 1 秒 E i TOT 超 過 810C Rje iE 100% > TAIR NI 超 過 上 限 , 造 成 轉 可 下 降 -8",
+    "restricted": false,
+    "id": 81
+  },
+  {
+    "section": "限制學科",
+    "number": 12,
+    "page": 9,
+    "question": "風速 限制",
+    "answer": "1) 啟動 限制 45 澤 (2) 陳 風 15 3E (3) 側 風 滯 空 35 澤 (MAA 308 附註 : 通 常 氣 象 不 會 報 讀 陣風 , 須 由 最 大 及 最 小 風速 相 滅 求 得",
+    "restricted": false,
+    "id": 82
+  },
+  {
+    "section": "限制學科",
+    "number": 13,
+    "page": 9,
+    "question": "負載 表 限制",
+    "answer": "(1) 最 大 負載 :70%",
+    "restricted": false,
+    "id": 83
+  },
+  {
+    "section": "限制學科",
+    "number": 14,
+    "page": 9,
+    "question": "高 度 限制",
+    "answer": "(1) 總 重 低 於 3000 #(VFR) : 壓力 高 度 20000 R (2) 總 重 高 於 3000 (VFR) : 壓力 高 度 13500 R (3) 總 重 低 於 3000 磅 (IFR): 壓力 高 度 14000 R (4) 總 重 高 於 3000 CFR) : 壓力 高 度 8000 R",
+    "restricted": false,
+    "id": 84
+  },
+  {
+    "section": "限制學科",
+    "number": 15,
+    "page": 9,
+    "question": "空 速 限制 - 目 視 飛 行",
+    "answer": "(1) 總 重 3000 磅 含 以 下 : 海 平面 -3, 000 呎 密度 高 度 時 最 大 空 速 130 漂 、3000-20000 呎 密度 高 度 時 , 每 上 升 1000 呎 , 最 大 空 速 減少 3.5 肖 (2) 總 重 3000 磅 以 上 : 海平 面 -3, 000 呎 密度 高 度 時 最 大 空 速 122 漂 、3000-13500 呎 密度 高 度 時 , 每 上 升 1000 呎 , 最 大 空 速 減少 7 肖",
+    "restricted": false,
+    "id": 85
+  },
+  {
+    "section": "限制學科",
+    "number": 16,
+    "page": 9,
+    "question": "空 速 限制 - 儀 器 飛行",
+    "answer": "(1) 最 小 邊 升 空 速 :70 澀 (2) 最 小 空 速 :50 澤 (3) 最 大 空 回 :110 澤 , 或 從 卡 上 最 大 空 速 ,2 者 取 最 小 者",
+    "restricted": false,
+    "id": 86
+  },
+  {
+    "section": "限制學科",
+    "number": 17,
+    "page": 9,
+    "question": "空 速 限制 - 大 馬力 飛行 限制",
+    "answer": "扭力 85-100( 不 含 )% 時 : 最 大 空 速 80 澀",
+    "restricted": false,
+    "id": 87
+  },
+  {
+    "section": "限制學科",
+    "number": 18,
+    "page": 9,
+    "question": "空 速 限制 - 艙 門 拆除 時",
+    "answer": "(1) 後 從 門 拆除 時 最 大 空 速 :87 漂 ( 有 動力 或 無 動力 時 ) (2) 前 艙 門 拆除 時 最 大 空 速 :69 涅 (有 動力 或 無 動力 時 ) 茲 告 : 當 敢 機 空 束 超 過 機 門 取 下 後 之 規定 空 速 範圍 時 , 將 會 使 回 族 桿 前 、 後 操控 之 作用 相 反 並 造成 飛 機 機 身 衝擊 附註 : 若 2 個 前 艙 門 拆除 , 僅 限 操作 日 間 及 夜間 目視 , 禁 止 儀器 飛行",
+    "restricted": false,
+    "id": 88
+  },
+  {
+    "section": "限制學科",
+    "number": 19,
+    "page": 9,
+    "question": "空 速 表 限制",
+    "answer": "(1) 持 續 操 作 值 : 0-130 7E (2) 最 大 值 :130 澤 (3) 自 轉 最 大 值 :100 浸",
+    "restricted": false,
+    "id": 89
+  },
+  {
+    "section": "限制學科",
+    "number": 20,
+    "page": 9,
+    "question": "備用 發 電機 限制",
+    "answer": "備用 發 電機 為 1 號 匯流 條 供電 時 , 空 速 50 涅 以 下 備用 發 電機 無 法 冷卻 , 禁止 長 時 間 操 作 。 -9-",
+    "restricted": false,
+    "id": 90
+  },
+  {
+    "section": "限制學科",
+    "number": 21,
+    "page": 10,
+    "question": "限制學科 第21題",
+    "answer": "TR TI OFERTES SUEDE 200820 ME APE AA ARA FSAA A EAAS G WARE DAN SHORT IRRA CARH 112. 10.30 P2-224) (DI PRKER TE 4. 4C EME (RRIA AC o LA TRKA A3 ERKA M E E 22.",
+    "restricted": false,
+    "id": 91
+  },
+  {
+    "section": "限制學科",
+    "number": 22,
+    "page": 10,
+    "question": "重心 限制",
+    "answer": "(1)VFR 重心 根 帛 由 106-114.2 站, 依 總 重 及 構 型 改變 (2)IFR 重心 限制 總 重 2400-3200 磅 時 :106-110 站 ,3200 磅 以 上 時 :106. 9-110 站 (3) 若 前 門 拆除 1 或 2 個 門 , 或 前 後 門 任意 搭配 拆除 , 其 重心 限制 :106-110 站 (4) 若 僅 後 艙 門 拆除 不 會 影響 重心 附註 :0 站 是 位 於 千斤 頂 前 頂點 中 心 線 前 方 55. 16 吋 附註 : 橫向 重心 限制 依 縱向 重心 位 置 改 變 而 改變 抽身 中 心 線 左側 3.0 吋 至 機 身 中 心 線 右側 4.0 吋 之 問",
+    "restricted": false,
+    "id": 92
+  },
+  {
+    "section": "限制學科",
+    "number": 23,
+    "page": 10,
+    "question": "斜坡 地 著 陸 / 起 飛 限 帛",
+    "answer": "僅 限 坡度 8 度 或 以 下 之 地 面 探 作 。 注意 : 在 坡度 5 度 以 上 之 地 面 操作 , 操 控 系 統 、 負 載 、 地 表 、 風 會 影響 操作 性 能",
+    "restricted": false,
+    "id": 93
+  },
+  {
+    "section": "限制學科",
+    "number": 24,
+    "page": 10,
+    "question": "重量 限制",
+    "answer": "(1) 斜 坡地 / 滯 空 / 懂 行 時 最 大 多 許 總 重 :3350 磅 (2) 前 座 最 小 所 需 重量 :170 磅 (77,1 公斤 ) (3) 最 大 起 飛 / 落 地 總 重 : 內 部 裝載 3200 F > WARR : 3350 3% 注意 : 若 載重 造成 總 重 超 過 3200 磅 , 必 須 使用 吊 掛 , 且 此 吊 掛 不 可 置 於 起 落架 上 附註 : 船 內 貨 物 最 大 允許 總 重 :250 磅 及 86 磅 / 每 平方 呎 安裝 冷氣 時 , 艙 內 貨 物 最 大 多 許 總 重 :176.5 磅",
+    "restricted": false,
+    "id": 94
+  },
+  {
+    "section": "限制學科",
+    "number": 25,
+    "page": 10,
+    "question": "飛行 動作 限制 - 應 避免 下 列 特 技 飛 行 動作",
+    "answer": "(1) 突 然 之 妻 態 改 變 (ORERE (3) 仰 角 大 於 30 度 (4) 坡 度 大 於 80 度 (5) 正 常 飛行 中 , 不 必要 的 突然 加 束 注意 :(1) 當 總 重大 於 3000 磅 , 旦 密度 高 度 高 於 海平 面 時 , 若 過 右側 風 大 於 20 澀 以 上 , 或 操作 地 速 20 肖 以 上 右側 滑動 作 時 , 將 使 方 向 控制 之 臨界 大 大 降低 (2) 突 然 的 操控 動作 是 禁止 的 (包含 快速 且 重 覆 的 舵 來 回 改變 ), 以 遊 免 飛機 結構 過 度 疫 送 , 惟 此 限 兩 不 適用 在 正常 操作 上 -10-",
+    "restricted": false,
+    "id": 95
+  },
+  {
+    "section": "限制學科",
+    "number": 26,
+    "page": 11,
+    "question": "練習 自 轉 時 之 飛行 限制",
+    "answer": "(1) 地 面 風 不 得 超 過 20 肖 -。 (2) 依 側 風 表 計算 所 得 之 側 風 不 得 超 過 1 08 (3) 障 風 不 得 超 過 1 0 e (4) 禁 止 順 風 自 轉 到 地 。 (5) 自 轉 空 速 不 得 少 於 最 小 下 降 率 空 遠 。 (6) 筷 地 時 地 速 應 在 5 REA (7) 在 許 翼 轉 速 (NR) 通 過 7 O# 之 前 , 應 以 水 平 麥 態 船 地 , 觸 地 後 , 集 體 桿 必須 柔和 減低 , 此 時 迴旋 桿 應 | 保持 在 居中 位 置 , 若 滑 搖 與 地 面 產 生 嗒 擦 聲 , 可 暫時 提 起 少量 集 體 桿 消除 此 狀況 , 待 此 聲音 清除 後 , 儘 速 恢復 持續 減低 集 體 桿 。 (8) 總 重 3, 200 磅 以 上 時 , 茜 止 練習 自 轉 。",
+    "restricted": false,
+    "id": 96
+  },
+  {
+    "section": "限制學科",
+    "number": 27,
+    "page": 11,
+    "question": "環境 限制 ~ 儀器 天 氣 一 般 限制",
+    "answer": "(1) 防 撞 燈 可 於 瘦 行 中 關閉 , 以 防止 反光 及 可 能 之 飛行 員 錯覺 (2) 保 持 座 艙 玻 璃 清潔 , 以 防止 光 暈 (3) 精 確 進 場 角 度 : 最 大 不 超 過 4 7 度",
+    "restricted": false,
+    "id": 97
+  },
+  {
+    "section": "限制學科",
+    "number": 28,
+    "page": 11,
+    "question": "環境 限制 - 海 上 飛行",
+    "answer": "(1) 含 貴之 水 氣 吸入 引擎 會 造成 :1. 引擎 性 能 惡化 ;2. 失去 壓縮 器 失速 上 限 。 (2) 當 敢 機 飛行 距 海 1 0 津 以 內 , 應 填 入 敢 機 表 格 提醒 維 保 人 員 。",
+    "restricted": false,
+    "id": 98
+  },
+  {
+    "section": "限制學科",
+    "number": 29,
+    "page": 11,
+    "question": "環境 限制 - 沙 慶",
+    "answer": "ERAD ER 而 沒 有 安裝 改良 式 屁 管 , 會 ERER EDA APSARA iE h k ER 引擎 壽命 。",
+    "restricted": false,
+    "id": 99
+  },
+  {
+    "section": "限制學科",
+    "number": 30,
+    "page": 11,
+    "question": "環境 限制 - 下 十",
+    "answer": "若 飛行 中 過 十, 應 填 入 飛機 表 格 以 提醒 維 保 人 員 。 31.",
+    "restricted": false,
+    "id": 100
+  },
+  {
+    "section": "限制學科",
+    "number": 31,
+    "page": 11,
+    "question": "自 轉 空 速 定義",
+    "answer": "(一 ) 最 小 下 降 率 :52 濕 。 (二 ) 最 大 下 滑 距 離 :69 肖 。 11",
+    "restricted": false,
+    "id": 101
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 1,
+    "page": 12,
+    "question": "預警 性 落地",
+    "answer": "飛行 員 於 執行 任務 途中 , 發 現 因 機 件 或 天 氣 等 芭 素 , 可 能 擎 生 危及 人 員 生 命 或 裝備 要 善之 情況 , 須 將 飛機 降落 於 安全 場地 , 以 確保 人 、 機 安全 , 遊 免 狀 況 惡化 。",
+    "restricted": false,
+    "id": 102
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 2,
+    "page": 12,
+    "question": "立即 落地",
+    "answer": "癌 不 延誤 於 最 近 的 適合 著 陸 場 地 執行 安全 著 陸 ( 首 要 考量 因素 為 人 員 性 命 存活 )",
+    "restricted": false,
+    "id": 103
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 3,
+    "page": 12,
+    "question": "儘 速 落地",
+    "answer": "飛行 員 審慎 考量 飛機 在 空 耐 航 時 間 與 著 陸 場 地 , 執 行 安全 著 陸 , 建 議 飛 行 員 不 可 延長 飛行 、 超 出 最 近 的 著 陸 場 地 (首要 考量 因素 為 緊急 狀況 的 變化 )。",
+    "restricted": false,
+    "id": 104
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 4,
+    "page": 12,
+    "question": "自 動 旋 韓",
+    "answer": "視 需 要 調整 飛行 扣 納 系 , 建 立 自 韓 下 滑 完成 落地 , 處 置 程 序 如 下 :",
+    "restricted": false,
+    "id": 105
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 5,
+    "page": 12,
+    "question": "集 體 桿 : 調 整 ( 視 需 要 維持 RPM90-107%)",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 106
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 6,
+    "page": 12,
+    "question": "腳 舵 : 調 整 ( 視 需 要 實施 側 滑 或 乜 行)",
+    "answer": "ih P\" : 視 需要 調整 ( 視 需要 關 斷 ) 4 空 速 : 視 需要 調整",
+    "restricted": false,
+    "id": 107
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 7,
+    "page": 12,
+    "question": "緊急 關 車 ( 毫 不 延誤 立即 關 車 )",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 108
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 8,
+    "page": 12,
+    "question": "手 油 門 : 全 關",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 109
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 9,
+    "page": 12,
+    "question": "燃油 辦",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 110
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 10,
+    "page": 12,
+    "question": "電瓶",
+    "answer": "附註 : 若 欲 將 電瓶 關閉 , 飛 行 員 應 考量 : (1) 無 線 電 呼 叫 MAYDAY (2)SIF- 緊 急 波 道 7700 (3) 電 力 完全 失效 之 影響",
+    "restricted": false,
+    "id": 111
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 11,
+    "page": 12,
+    "question": "滯 空 引擎 失效",
+    "answer": "徵候 處 置 程序 RA (1 ) 機 頭 左 轉 (1) 自 動 許 轉 FOD 或 IOD 所 造成 之 發 動機 失效 (2)3 Ft- FE (2) 落 地 後 緊急 關 車 GRR- FE (4) 低 轉 可 音響 一 響 (5) 低 轉 速 警 告 燈 一 亮 (6) 引 擎 噪音 改變 (放炮 ) MEAN RRE 引擎 失效 警告 燈 : 亮 FERA: F n",
+    "restricted": false,
+    "id": 112
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 12,
+    "page": 13,
+    "question": "樹林 追 降",
+    "answer": "徵候 處 置 程序 原 因 (1) 空 速 - 樹 梢 高 度 時 處 至 最 小 (2) 下 降 - 垂 直 進 入 樹林 (3) 集 髒 桿 - 在 飛機 撞擊 樹林 前 , 使 用 全 集 體 桿 進 行 緩衝 考量 : (1) 只 有 在 沒 有 其 他 過 合 落地 區 可 選擇 時 , 才 落 於 樹林 (2) 除 了 完成 引擎 失效 緊急 程序 外 , 須 選擇 最 少 樹林 , 及 最 低 樹高 (3) 使 用 油門 關 斷 之 自 轉 方式",
+    "restricted": false,
+    "id": 113
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 13,
+    "page": 13,
+    "question": "水 上 追 降 (有 動力 ) (訓練 手 冊 112. 10. 30 P2-251)",
+    "answer": "徵候 處 置 程序 原 因 EIM (2) 機 員 及 乘員 ( 除 正 駕 駛 外 )- 離 開 (3) 滯 空 滑行 至 遠離 人 員 之 安全 距離 (4) 自 動 旋 轉 - 於 直升機 入 水 前 , 用 完 剩 餘 之 集 體 桿 , 入 水 及 下 沉 時 保持 飛機 雪 態 水 平 , 向 翻滾 方向 使用 圖 族 桿 OJER R-ERR EDERE REEK EAE , 使用 馬力 進 場 至 水 面 上 滯 空 。 13",
+    "restricted": false,
+    "id": 114
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 14,
+    "page": 14,
+    "question": "水 上 追 降 (無 動力 ) (訓練 手 冊 112. 10.30 P2-252)",
+    "answer": "徵候 RER AA | (1) 機 頭 左 轉 (2) 引 擎 轉 速 一 下 降 (1) 自 動 旋 韓 - 入 水 前 用 完 剩餘 之 集 體 桿 FOD 或 OD 所 (2) 艙 門 - 開 造成 之 發 動機 GERME- FIE (COS E E E t OWRARRA-ER REDE MAE 失效 (5) 低 轉 速 警告 燈 一 亮 (6) 引 擎 喇 音 改變 (放炮 ) (7) 全 馬力 卅 失 時 引擎 失效 警告 燈 : 亮 EER: F GT EE LTE LEET EEE iS OET DELE mE La",
+    "restricted": false,
+    "id": 115
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 15,
+    "page": 14,
+    "question": "引擎 超 速",
+    "answer": "徵 人 處 置 程序 原 因 IFAR RREI CRRI ARMARRI LAH RIFA | C) NI 油 控 器 失效 ORRA EREE RRMEFTHENA (2) N2 調 速 器 失效 Dent (2) 手 油門 一 調整 , 至 正常 操作 轉 可 限制 內 。 (MRAR (3) 立 即 落地 , 以 手 油門 控制 轉 速 立即 帶 動力 進 場 及 落地 若 轉 述 無 法 藉 手 油門 調整 控制 時 , 則 : (1) 自 動 話 轉 - 執 行 , 待 飛 至 安全 落地 區 。 (2) 緊 急 關 車 - 若 時 間 許 可 在 下 滑 中 完成",
+    "restricted": false,
+    "id": 116
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 16,
+    "page": 14,
+    "question": "引擎 低 韓 速",
+    "answer": "徵候 處 置 程序 AA OIEA R RE FIE A MEIERI AR E E Z EAT A (1) NI 油 控 器 失效 (Dh FIE (1) 立 即 落地 - 於 可 滾 行 之 場地 (2) N2 調 速 器 失效 (3) 機 頭 左 轉 若 引擎 塌 速 低 於 90%, 則 (4) 低 塌 速 音響 響 (固定 聲 ) (1) 自 動 許 轉 (5) 低 轉 速 注意 燈亮 (橙色 ) (2) 緊 急 關 車 - 若 時 間 許可 在 下 滑 中 完成 14",
+    "restricted": false,
+    "id": 117
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 17,
+    "page": 15,
+    "question": "引擎 衝 激",
+    "answer": "徵候 處 置 程 序 原 因 (1)N1、N2 轉 速 下 降 (1)N2 調 速 器 - 增 加 至 最 大 轉 束 CNI 油 控 器 作用 不 良 (2)TOT 上 升 (2) 手 油門 - 調 整 N2 轉 速 至 97% (2)N2 調 速 器 作用 不 良 (3) 立 即 落地 (3) 混 放 辦 作用 不 良 若 以 上 程序 未 能 改善 衝 激 狀 況 : (1) 自 動 疾 轉 - 飛 至 安全 落地 場 (2) 緊 急 關 車 - 若 時 間 許可 在 下 少 中",
+    "restricted": false,
+    "id": 118
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 18,
+    "page": 15,
+    "question": "引擎 結 冰",
+    "answer": "徵候 處 置 程序 原 因 (1)N1、N2 轉 速 下 降 (1) 引 擎 除 冰 開 關 - 開 (若 狀況 持 外 界 溫 度 過 低 (2) 扭 力 上 升 續 ) (2)TOT- 不 可 超 限 附註 : 除 冰 系 統 開 啟 時 ,TOT 會 隨 動力 配置 上 升 。",
+    "restricted": false,
+    "id": 119
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 19,
+    "page": 15,
+    "question": "引擎 壓縮 器 失 可",
+    "answer": "徵候 處 置 程序 原 因 (1) 外 物 損傷 (1) 機 身 拌 動 , 引 擎 尖銳 或 連續 放炮 聲 (1) 集 體 桿 一 減低 (2) 引 學 震動 (2) 引 擎 除 冰 一 關 (2) 第 體 桿 使用 過 猛 (3) 進 氣 不 足 (3)TOT 上 升 (3) 座 艙 加 溫 一 關 (4) 大 載重 CONI 轉 速 急 速 下 降 扭力 上 升 (4) 立 即 落地 (DEBAN",
+    "restricted": false,
+    "id": 120
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 20,
+    "page": 15,
+    "question": "3 Eh E h A/A G Rt Cak 112. 10.30 P2-249)",
+    "answer": "徵候 處 置 程 序 原 因 引擎 滑 油 壓 力 下 降 、 溫 度 上 逢 (1) 若 引擎 滑 油 壓 力 低 於 50psi, 或 溫 | TAR ERA b 度 高 於 107C 時 , 應 立即 落地 (2) 若 引擎 壓力 晃動 但 未 超 限 時 , 應 持續 監控 滑 油 壓力 及 溫度 EL EELA MRES EAEN FERRA EARE LA RGAN TAEA A Ee e 15",
+    "restricted": false,
+    "id": 121
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 21,
+    "page": 16,
+    "question": "熱 啟動 緊急 關 車",
+    "answer": "|- 徵候 處 回 程序 AR =a (1)TOT 快速 上 升 (1) 啟 動 炙 一 繼續 按 下 (直至 TOT ORRE ERESI | (2) 尾 管 噴 火 溫度 低 於 200'C 以 下 ) 時 將 造成 尾 管 噴 火 (3)NI 轉 速 上 升 緩慢 (或 5NR RR E (2) 手 油門 一 全 關 (2) 電 壓 不 足 動 ) (3) 燃 油 辦 一 關 (3) 油 門 行 程 未 全 關 (4) 電 壓 上 升 緩慢 ( 儀 器 機 型 ) (4); 激勵 器 斷 電 器 (IGN)- 拔 出 (4) 除 冰 器 開 關 未 關 (5)TOT810~927)C, 時 間 達 10 £ (5) 完 成 關 車 (5) 油 控 器 失效 (6)927C 或 以 上 時 , 時 間 達 1 秒 ORAHE (7)TOT 警告 燈亮 (7) 進 氣 濾 網 或 尾 管 單 未 拆除 _18. RATP 3 EEM ACRE 112.10. 30 P2-250) 徵候 處 置 程序 AA (1318K (DRRR RWE MARRE | VAR R (2)N1 Hat 90-107% (2) 主 燃油 hase M (3) 發 動機 油 溫度 / 壓 力 表 刀 堆 (2) 空 速 調整 52-69 漂 。 (3) DETSE (4)TOT 下 降 (3) 主 發 電機 開 關 - 關 。 (4) 執 行 正常 開 車 程序 。 注意 : 勿 於 12000 呎 以 上 執行 飛行 中 引擎 重新 聞 車 , 因 為 TOT 會 上 升 太 快 而 無 法 控制 。 附註 : 若 引 好 失效 為 機 械 因素 , 不 要 嘗試 展 行 中 引擎 重新 聞 車 。 附註 : 嘗試 散 行 中 引擎 重新 聞 車 應考 量 (1) 可 用 時 間 (2) 下 降 率 (3) 可 能 的 落地 區 (4) 可 運用 的 機 員 協助 , 正常 狀況 下 , 重 新 聞 車 需 一 分 鐘 以 獲得 動力 飛行 。",
+    "restricted": false,
+    "id": 122
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 22,
+    "page": 16,
+    "question": "燒 油 增 壓 償 失 效",
+    "answer": "徵候 REBA 原 因 LEELEE EEEa (1) 如 可 能 時 , 下 降 至 6000 呎 以 下 (1) 燃 油 增 壓 舟 斷 電器 跳出 (2) 燃 油 壓 力 表 歸 堆 (Dt e (2)1 或 2 個 燃油 增 壓 系 失效 (3) 燃 油 存量 低 於 12.6 加 會 警告 : 在 2 個 燃油 增 壓 系 同 時 失效 時 , 不 允許 飛行 ,1 或 2 個 燃油 增 壓 泉 失 效 及 不 正常 雪 態 與 不 協調 飛行 會 造成 約 10 加 例 油 量 無 法 使用 。 附註 : 此 引擎 設計 在 6000 呎 以 下 無 需 燃 油 增 壓 他 , 且 1 個 增 壓 償 可 提供 所 有 馬力 及 高 度 狀況 下 之 燃油 供 3 16",
+    "restricted": false,
+    "id": 123
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 23,
+    "page": 17,
+    "question": "主 傳動 軸 失 效",
+    "answer": "BR REB AA CPLIE S E a (JA AREA A ka | EEA CARH- FIE (2) 緊 急 關 車 - 落 地 後 完成 (3) 敢 機 向 左 偏 所 (4) 低 轉 速 音 響 一 響 (5) 低 轉 速 警 告 燈 一 亮 (6)N1、N2 二 速 暫 時 超 速 後 穩定 警告 : 引 克 保持 運轉 以 提供 動力 至 尾 旗 , 在 自 轉 過 程 中 若 無 法 保持 引 學 動力 , 將 造成 懂 機 失控 , 視 需 要 調整 集 體 桿 以 維持 引 學 轉 速 在 限制 範圍 內 。",
+    "restricted": false,
+    "id": 124
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 24,
+    "page": 17,
+    "question": "主 承 桿 撞擊",
+    "answer": "徵候 REBA AA Aei AR TE M E A 立即 落地 主 承 桿 撞 李 外 物",
+    "restricted": false,
+    "id": 125
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 25,
+    "page": 17,
+    "question": "液壓 失效",
+    "answer": "徵候 處 置 程序 AA ARED MR ARAR Eit- WEE 61-698 (1) 液 壓 油 漏 油 (2) 液 壓 斷 電器 一 拔 出 (如 液壓 未 恢復 ) (2) 液 壓 泵 失效 (3) 液 壓 斷 電器 一 按 入 (3) 電 氣 系 統 短路 (4) 液 壓 開 關 一 關 PS : 液壓 壓力 600+50PS1 (5) 儲 速 落地 可 滾 行 之 場地 正常 注意 : 飛行 過 程 中 (處 置 完 成 後 ), 不 要 將 液壓 開 關 - 開 , 以 防止 液壓 動力 突然 恢復 , 造 成 飛機 失控 。 附註 : 失效 徵候 為 操縱 系 硬 滯 或 有 反饋 現象 , 仍 可 實施 正常 飛行 。",
+    "restricted": false,
+    "id": 126
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 26,
+    "page": 17,
+    "question": "飛行 操控 失效",
+    "answer": "徵候 處 置 程 序 有 不 同 程度 的 反饋 、 束 縛 、 阻 滯 、 滑 動 間隙 , 然 這 (1) 立 即 落地 些 徵 師 不 可 與 液壓 失效 混淆 (2) 緊 急 關 車 - 落 地 後 完成 17",
+    "restricted": false,
+    "id": 127
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 27,
+    "page": 18,
+    "question": "F RIE RIRE A kC Em 112. 10.30 P2-259)",
+    "answer": "徵候 處 置 程 序 不 受 控 的 橫向 或 縱向 迥 話 裡 移 動 , 不 受 控 的 量 可 能 ORA , 若 接近 地 面 時 , 以 防止 主 許 翼 或 由 中 等 到 嚴重 , 持 續 時 間 可 能 由 1 HERP L 尾 旋翼 打 到 地 面 狀況 不 可 與 液壓 失效 混淆 (2) 腳 舵 - 調 整 至 韓 蠻 方向 CIJE M ARME A HEF RRR EKF (4) 立 即 落地",
+    "restricted": false,
+    "id": 128
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 28,
+    "page": 18,
+    "question": "離合 器 脫離 失效",
+    "answer": "徵候 處 置 程 序 AA 在 進 入 自 動 話 轉 下 滑 , 手 油門 收 至 慢車 時 , 旋 翼 轉 | (1) 手 油門 一 全 開 離合 器 內 件 損壞 速 (NR) 隨 引 學 韓 速 (N2) 下 降 ( 雙 轉速 表 一 起 下 降 ), (2) 立 即 落地 此 時 會 造成 自 動 話 轉 能 力 完全 喪失",
+    "restricted": false,
+    "id": 129
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 29,
+    "page": 18,
+    "question": "離合 器 結合 失效",
+    "answer": "徵候 處 置 程序 RA CINI > N2 轉 速 正常 CA hii Eai EOT E OE ELA EI (2)NR Hit FIE DREM",
+    "restricted": false,
+    "id": 130
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 30,
+    "page": 18,
+    "question": "ARA RAT PI FARA KERE 112. 10.30 P2-245)",
+    "answer": "p 徵候 處 置 程 序 AA (1)TOT 指示 溫度 較 高 (1) 手 油門 - 關 (1) 引 擎 從 電器 短路 (2) 冒 煙 或 起 火 (2) 立 即 進 入 自 動 旋轉 (2) 燃 油管 路 滲 油 (3) 有 燒 焦 味 (3) 燃 油 辦 - 關 (4) 負 載 表 上 了 升 (4) 電 瓶 - 關 (5) 完 成 自 動 旋轉 下 滑 及 著 陸",
+    "restricted": false,
+    "id": 131
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 31,
+    "page": 18,
+    "question": "艙 內 煙霧 消除",
+    "answer": "徵候 處 置 程 序 AA (1) 有 煙霧 影響 視界 (1)VENT- 拉 出 座艙 內 線路 短路 或 起 火 (2) 有 燒 焦 或 煙霧 味道 (2) 窗 戶 - 開 附註 :: 此 動作 是 保護 乘員 免 於 有 毒氣 體 及 煙 芭 等 , 須 立 即 執行 。 18-",
+    "restricted": false,
+    "id": 132
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 32,
+    "page": 19,
+    "question": "RAT PEB KECE 112. 10.30 P2-253)",
+    "answer": "徵候 處 置 程序 原 因 | (1) 負 載 表 上 升 (1) 電 瓶 及 主 發 電機 開 關 - 關 | 電器 系 統 短 路 造成 失火 (2) 座 從前 通氣 孔 冒 煙 , 酸 委 味 (2)( 儀 器 型 ) 備 用 發 電機 - 關 (3) 立 即 落地 (4) 緊 急 關 車 - 落 地 後 完成 在 關 掉 所 有 電力 之 前 , 飛 行 員 必須 考量 會 過 到 的 特 定 飛行 環境 之 必要 裝備 。",
+    "restricted": false,
+    "id": 133
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 33,
+    "page": 19,
+    "question": "引擎 / 機 身 / 電 器 火 毆 - 地 面",
+    "answer": "處 置 程序 LELES 意 : 使用 外 電源 時 , 應 將 外 電源 關 斷 a 雖然 滅火 器 內 容 物 未 具 毒 性 , 但 可 能 造成 皮膚 不 適 , 萬 一 接觸 , 應 使用 冷水 沖洗 (1) 火 警 發 生 時 , 最 主 要 考量 為 機 組 員 安 全 (2) 機 組 員 須 畫 全 力 儘快 滅火 (3) 在 地 面 上 , 最 重要 的 是 關 引擎 及 機 組 員 上 離開 飛機 並 馬上 滅 火 (4) 若 時 間 許可 , 應 在 所 有 電力 關 斷 前 , 呼 叫 MAYDAY , 以 加 速 通知 消防 人 員 來 滅火 (5) 在 空中 , 機 組 員 最 重要 的 唯一 考量 是 將 飛機 落 於 地 面",
+    "restricted": false,
+    "id": 134
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 34,
+    "page": 19,
+    "question": "電瓶 溫度 高 (BATTERY TEMP)",
+    "answer": "徵候 處 置 程序 原 因 (1)BATTERY TEMP 警告 燈亮 (1) 電 瓶 - 關 , 直 到 BATTERY TEMP Atit | 電瓶 從 溫度 達 54.5C 或 以 上 (2) 負 壇 表 上 升 (DEM 附註 :BATTERY TEMP AMEIR REETA RINER ERARA A A F t EAL E A 人 員 檢 修 。",
+    "restricted": false,
+    "id": 135
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 35,
+    "page": 19,
+    "question": "電瓶 溫度 高 (BATTERY HOT)",
+    "answer": "徵候 處 置 程序 原 因 (1)BATTERY HOT 警告 燈亮 (1) 電 瓶 - 關 電瓶 從 溫度 達 60 C 或 以 上 (2) 負 載 表 上 升 (2) 立 即 落地 19",
+    "restricted": false,
+    "id": 136
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 36,
+    "page": 20,
+    "question": "(VFR) 主 發 電機 失效",
+    "answer": "徵候 RERA AR (1) 主 發 電機 警告 燈亮 (1) 主 發 電機 之 斷 電 器 (FIELD 及 |(1) 主 發 電機 損壞 (DA RARE RESET)- 檢 查 按 入 (2) 線 路 短路 (2) 主 發 電機 開 關 重 置 後 開 (不 可 將 此 開 (3) 發 電機 調節 器 失效 關 保持 在 重 置 位 置 ) 如 電源 未 恢復 , 或 再 次 失效 (1) 主 發 電機 開 關 - 關 (2) 所 需 電 力 裝備 - 開 (如 租 線 電 及 導航 儀表 ) OL EELA",
+    "restricted": false,
+    "id": 137
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 37,
+    "page": 20,
+    "question": "(IFR) 主 發 電機 失效 - 無 輸出",
+    "answer": "徵候 處 置 程序 AR ERTRRAE|OTER-HMEERERLE AREATA (1) 主 發 電機 損壞 告 燈 亮 (2) 確 認 3 個 斷 電器 (FIELD、RESET、RELAY)- 按 入 (2) 線 路 短路 (3) 主 發 電機 RESET 後 ON (3) 發 電機 調節 器 失效 如 電源 未 恢復 : (1) 確 認 備用 發 電機 供電 給 一 號 流 條 , 電 瓶 供電 給 二 號 匯流 條 , 而 非 必 要 匯流 條 未 作用 。 (2) 非 區 流 條 可 用 電瓶 供電 , 若 需要 , 可 將 非 必要 匯流 條 開 關 點 於 手動 (3) 若 在 儀器 天 氣 狀 況 下 , 離 開 儀器 天 氣 後 , 代 束 落 地 附註 : 1. 若 飛行 過 久 , 電 瓶 電 力 可 能 耗 畫 , 若 機 場 需 落地 燈 , 鹿 先 將 電瓶 關 , 以 保留 電力",
+    "restricted": false,
+    "id": 138
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 38,
+    "page": 20,
+    "question": "備用 發 電機 會 持續 供電 至 ] 號 匯流 條 , 但 2 號 匯流 條 失去 電力 , 直 至 電瓶 開 。",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 139
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 39,
+    "page": 20,
+    "question": "前 燃油 增 壓 和 朋 失去 功能 , 雇 飛 在 6000 呎 壓力 高 度 以 下 。",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 140
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 40,
+    "page": 20,
+    "question": "2 REAT h EALE d0 分 鐘 ( 在 動 壓 管 加 溫 未 開 及 80% 電 力 下 ), 若 2 個 動 壓 菅 加 溫 均 開 ,",
+    "answer": "則 2 號 匯流 條 可 用 30 分 鐘 。 20",
+    "restricted": false,
+    "id": 141
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 41,
+    "page": 21,
+    "question": "(IFR) 備 用 發 電機 失效 - 無 輸出",
+    "answer": "Bik RERA RARTRRASEEE ORENA ETRMM-A STBY 位 置 (2) 選 擇 備用 發 電機 , 確 認 DC 負載 表 - 無 負載 (3) 將 備用 發 電機 開 關 置 於 OFF 位 置 後 , 再 回 到 STBY 位 置 (4) 若 在 儀器 天 氣 中 飛行 , 電 力 未 恢復 , 則 儘 束 落地",
+    "restricted": false,
+    "id": 142
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 42,
+    "page": 21,
+    "question": "尾 許 異 組件 吉 失",
+    "answer": "徵候 處 置 程序 DRAERS RERA (1) 進 入 自 轉 下 降 ( 手 油門 全 關 ) 發 生 時 使用 之 馬力 及 空 速 (2) 保 持 大 於 最 小 下 降 率 之 空 速 (2) 重 心 前 移 (3) 若 可 渡 行 著 陸 - 以 可 控制 方向 之 空 束 完 成 自 轉 著 陸 。 (4) 若 無 法 滾 行 著 陸 , 於 75 呎 時 減速 , 於 10 至 20 呎 時 將 地 速 沽 至 最 小 , 著 陸 前 使用 全 集 體 裡 , 保 持 水 平次 態 , 並 以 最 地 可 著 陸 。 附註 : 此 狀況 之 嚴重 與 否 全 敝 失 去 多 少 組 件 重量 , 任 何 重量 改變 均 會 使 重心 向 前 , 需 要 向後 帶 迴旋 桿 修 正 , 且 全 程 應 採用 自 轉 下 滑 , 若 有 適合 之 場地 , 則 以 滾 行 方式 著 陸 ; 若 無 適合 之 場地 , 則 採 最 小 RITEM PEREKRE EL",
+    "restricted": false,
+    "id": 143
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 43,
+    "page": 21,
+    "question": "RRRRERACS H >h)",
+    "answer": "徵候 處 置 程序 AB 增加 馬力 時 , 機 頭 右 轉 | (1) 如 在 有 動力 飛行 時 可 保持 飛機 控制 , 最 佳 方 式 為 以 馬力 維持 | 右 舵 變 距 飛機 可 控制 狀 況 , 代 可 能 實施 滾 行 著 陸 , 著 陸 時 , 使 用 空 速 、| 失效 手 油門 及 集 體 桿 以 控制 敢 機 之 航向 及 側 移 。 (2) 如 無 法 保持 飛機 控制 , 立 即 關 斷 手 油門 並 完成 自 轉 著 陸 。 附註 : 此 種 失效 來 自 舵 卡 死 造成 之 失控 , 不 管 機 頭 偏 左 或 偏 右 , 均 由 失效 時 的 舵 在 何 處 決定 , 不 管 舵 卡 在 哪 , 飛 行 全 程 尾 許 民 仍 提供 推 力 。 21",
+    "restricted": false,
+    "id": 144
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 44,
+    "page": 22,
+    "question": "尾 旋翼 變 距 失效 ( 馬 力 大 、 高 扭力 )",
+    "answer": "— 徵候 RERE 原 因 減少 馬力 時 , 機 頭 諾 韓 |(1) 使 用 友 力 及 空 加 , 調 整 飛機 空 速 於 40 至 70 澀 。 ARRERA (2) 保 持 動力 飛行 至 可 滾 行 之 落地 區 。 (3) 實 施 滾 行 著 陸 時 , 利 用 馬力 及 著 陸 空 速 將 側 滑 減 至 最 小 ; 於 著 陸 時 , 視 需要 使用 手 油 門 及 集 體 桿 以 控制 飛機 之 航向 ANA ma: 此 種 失效 來 自 舵 卡 死 造 成 之 失控 , 不 管 機 頭 偏 左 或 偏 右 , 均 由 失效 時 的 舵 在 何 處 決定 , 不 管 舵 卡 在 哪 , 飛行 全 程 尾 誕 翼 仍 提供 推 力 。",
+    "restricted": false,
+    "id": 145
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 45,
+    "page": 22,
+    "question": "ERR RIERAGPE)",
+    "answer": "徵候 處 置 程 序 原 因 腳 舵 無 法 控制 方向 著 陸 變 距 失 效",
+    "restricted": false,
+    "id": 146
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 46,
+    "page": 22,
+    "question": "RR RHN RACH 112. 10. 30 P2-262)",
+    "answer": "徵候 處 置 程序 原 因 (1) 腳 舵 無 法 控制 方向 CRA 52 澀 以 上 動力 飛 至 適合 場地 Rik RIE (2) 機 頭 向 右 (2) 渡 行 , 以 可 控 方向 之 空 速 落 地 , 手 油門 全 關 自 動 旋轉 LE (BRA ea R (3) 若 滾 行 著 陸 , 於 75 呎 時 減速, 於 10 至 20 REGi 轉 減 至 最 小 , 著 陸 前 使用 全 集 體 桿 , 保 持 水 平 閃 態 , 並 以 最 小 地 這 著 陸 。 難 告 : 機 身 滾 轉 及 側 滑 的 量 取決 於 油門 及 集 體 桿 之 用 量 ( 空 速 50 肖 以 下 空 速 , 可 能 使 側 滑 不 可 控制 , 且 飛機 會 以 垂直 軸 向 打 轉 )。 附註 : 當 沒 有 適合 的 落地 區 時 , 保 持 低 馬力 及 足夠 空 速 可 直 尾 契 保持 飛機 方向 , 落 地 前 必須 手 油 門 全 關 。",
+    "restricted": false,
+    "id": 147
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 47,
+    "page": 22,
+    "question": "RRRA RR (Wek F 112. 10. 30 P2-263)",
+    "answer": "處 置 程序 (1) 腳 舵 - 向 左 全 行 程 Oai- iT (3) 若 恢復 , 調 整 操 總 系 至 正常 飛行 (4) 若 機 身 打 轉 無 法 停止 , 且 馬上 就 要 撞 地 失事 , 進 入 自 動 旋 轉 也 許 是 最 佳 方案 , 保 持 左 舵 全 行 程 直至 機 身 打 轉 停止 , 之 後 調整 並 維持 航向 敬告: 集體 桿 減低 會 使 偏 扭 率 減緩 , 但 若 已 建立 下 少 時 , 集 體 桿 減低 會 增加 下 降 率 而 使 偏 扭 過 量 。 -22-",
+    "restricted": false,
+    "id": 148
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 48,
+    "page": 23,
+    "question": "冷氣 失效",
+    "answer": "徵候 處 置 程序 RA 無 冷氣 排出 (1) 冷 氣 開 關 - 關 (1) 冷 氣壓 縮 機 失效 (2) 儘 速 落地 (2) 冷 氣 皮帶 斷裂 (3) 冷 氣 散熱 風扇 失效",
+    "restricted": false,
+    "id": 149
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 49,
+    "page": 23,
+    "question": "雷擊",
+    "answer": "處 置 程序 (1) 立 即 落地 (2) 落 地 後 緊急 關 車",
+    "restricted": false,
+    "id": 150
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 50,
+    "page": 23,
+    "question": "飛行 中 撞 線",
+    "answer": "處 置 程序 [ 立即 落地",
+    "restricted": false,
+    "id": 151
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 51,
+    "page": 23,
+    "question": "傳動 箱 沮 油 壓力 注意 燈 ( 栓 )- 亮",
+    "answer": "處 置 程序 原 因 (1) 檢 查 儀表 傳動 箱 滑 油 壓 力 低 於 最 低 限 制 (2) 立 即 落地",
+    "restricted": false,
+    "id": 152
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 52,
+    "page": 23,
+    "question": "引擎 失效 警告 燈 ( 紅 )- 亮",
+    "answer": "徵候 RERA 原 因 (1) 低 轉 速 警 告 燈 - 亮 立即 減低 集 體 桿 , 進 入 自 動 許 轉, 若 高 度 足夠 引擎 動力 失效 (即 NI (2) 難 告 音響 - 響 低 於 55+-3%) [enkarn gR pH",
+    "restricted": false,
+    "id": 153
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 53,
+    "page": 23,
+    "question": "引擎 失效 警告 音響 - 響",
+    "answer": "徵候 處 置 程序 AM (1) 急 促 音頻 出 現 引擎 動力 失效 (即 NI (2) 引 殉 失效 警告 燈 ( 紅 ) 亮 低 於 55+-9%) 23",
+    "restricted": false,
+    "id": 154
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 54,
+    "page": 24,
+    "question": "傳動 箱 滑 油 溫度 注意 燈 ( 橙 )- 亮",
+    "answer": "處 置 番 序 | RA (1) 檢 查 儀 表 主 傳動 箱 滑 油 溫度 紅線 或 以 上 (2) 減 少 馬 力 - 可 協助 減緩 狀況 (3) 檢 查 傳動 箱 滑 油 壓 力 (4) 立 即 落地",
+    "restricted": false,
+    "id": 155
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 55,
+    "page": 24,
+    "question": "引擎 金 屬 眉 注意 燈 ( 框 )- 亮",
+    "answer": "處 置 程序 AA 立即 落地 引擎 滑 油 內 含 金 屬 層",
+    "restricted": false,
+    "id": 156
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 56,
+    "page": 24,
+    "question": "傳動 箱 金 屬 層 注意 燈 ( 框 )- 亮",
+    "answer": "處 置 程序 AD 立即 落地 傳動 箱 滑 油 內 含 金 屬 層",
+    "restricted": false,
+    "id": 157
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 57,
+    "page": 24,
+    "question": "尾 齒 燈 箱 金屬 層 注 意 燈 ( 橙 )- 亮",
+    "answer": "REB 原 因 立即 落地 中 齒輪 箱 滑 油 內 含 金 屬 層",
+    "restricted": false,
+    "id": 158
+  },
+  {
+    "section": "緊急操作程序",
+    "number": 58,
+    "page": 24,
+    "question": "機 身 燃油 濾 (AF FUEL FILTER) 注 意 燈 ( 橙 )- 亮",
+    "answer": "處 置 程序 AR Mit e 機 身 燃 油 濾 阻 密 (2) 下 天 飛行 前 清除",
+    "restricted": false,
+    "id": 159
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 1,
+    "page": 26,
+    "question": "空域 視察 (訓練 教 範 P2-23)",
+    "answer": "(1) 立 即 將 有 威 鵬 的 其 它 航 機 或 障礙 向 另 一 機 員 報告 (2) 正 確 的 機 員 協 調 MERE (訓練 教 範 P2-24) (1) 按 操作 手冊 或 檢查 手冊 實施 瀟 空 檢查 (2) 正 確 判 斷 飛機 的 操縱 反應 (3) 正 確 判 斷 飛機 重心 在 許可 範圍 內 (4) 正 確 指出 引擎 、 傳 動 箱 操作 限制 (5) 正 確 指 出 飛行 儀表 一 般 反應 滯 空 動力 檢查 (訓練 教 範 P2-24) (1) 在 起 飛 點 附近 機 頭 向 起 飛 方 向 實施 檢查 (2) 保 持 2 呎 穩定 滯 空 , 判 斷 是 否 有 足夠 動力 達成 任務 IFAH P ARRIRA (kgg P2-26) CRR Ekik | a 按 飛機 檢查 手冊 程序 實施 檢查 b. 正確 的 機 員 協 調 (2) 觀 測 員 或 乘員 : a, 適切 的 空域 視察 b. 正確 的 機 員 協 調 滯 空 (訓練 教 範 P2-28) (1) 起 飛 至 滯 空 a 垂直 上 升 至 離 地 3 呎 , tR b. 保持 航向 110” C. 敘 移 不 得 超 過 12 R ORE RAT a. 定點 (aJiitie BE 3R” H (b) 保 持 航向 +10” (c) 偏 移 不 得 超 過 +2 R 26",
+    "restricted": false,
+    "id": 160
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 2,
+    "page": 28,
+    "question": "4 (aak gë P2-48)",
+    "answer": "(1) 完 成 空域 視察 (2) 保 持 固定 轉 繼 率 (轉 彎 坡度 ),+5” (3) 到 達 所 望 航 向 +10” 以 內 改 平 (4) 保 持 航 高 ,+100 呎 (5) 保 持 航速 ,+10 漂 / 時 (6) 保 持 飛機 協調 飛行",
+    "restricted": false,
+    "id": 161
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 3,
+    "page": 28,
+    "question": "加 速 、 減 速 ( 訓 練 教 範 P2-50)",
+    "answer": "(1) 保 持 進 入 空 加 90 澤 / 時 ,+10 8/07; 減速 至 50 漂 / 時 ,+10 38/8 (2) 係 持 高 度 ,+100 R (3) 保 持 地 跡 (4) 保 持 飛 機 協調 飛行",
+    "restricted": false,
+    "id": 162
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 4,
+    "page": 28,
+    "question": "上 升 轉 彎 、 下 降 轉 繼 ( 訓 練 教 範 P2-51)",
+    "answer": "(1) 完 成 空域 視察 (2) 保 持 所 需 轉 弦 率 (轉 彎 坡 度 ),15” (3) 新 航向 110” 以 內 改 平 飛 (4) 保 持 航 高 ,+100 R (5) 保 持 收 升 率 、 下 降 率 500+100 呎 / 分 包 (6) 保 持 90 Zit > +10 漂 / 時 指示 空 速 (7) 保 持 飛機 協調 飛行",
+    "restricted": false,
+    "id": 163
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 5,
+    "page": 28,
+    "question": "航線 起 隆 ( 訓 練 教 範 P2-53)",
+    "answer": "(1) 保 持 爬 升 或 下 降 率 500+100 呎 / 分 鐘 (2) 保 持 地 跡 (3) 保 持 飛機 協調 飛行 (4) 保 持 90 Eik t108 (5) 保 持 800 高 度 ,+100 R (6) 確 按 檢查 手冊 完成 落地 前 檢查 28",
+    "restricted": false,
+    "id": 164
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 6,
+    "page": 29,
+    "question": "目視 進 場 ( 訓 練 教 範 P2-59)",
+    "answer": "(1) 選 定 合適 之 著 陸 場 地 (2) 保 持 指定 之 高 度 ,+100 呎 (3) 建 立 進 入 空 速 (60 漂 ),+10 澀 (4) 保 持 可 避 開 障礙 之 固定 進 場 角度 (5) 保 持 地 跡 至 最 小 偏 移 量 (6) 侶 持 明顯 接近 率 , 但 不 可 超 過 步行 之 速度 (7) 柔 和 有 控制 的 操作 飛機 至 滿 空 或 地 面",
+    "restricted": false,
+    "id": 165
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 7,
+    "page": 29,
+    "question": "進 場 著 陸 程 序 ( 訓 練 教 範 P2-64)",
+    "answer": "(1) 完 成 起 飛 前 檢查 (2) 目 視 飛機 四 周 障礙 物 清除 (3) 進 入 : 滯 空 高 度 3 呎 ,il 啄 (4) 正 常 或 最 大 性 能 起 飛 至 50 呎 ,+15 呎 (5) 到 直 50 呎 ,+15 呎 保持 高 度 , 將 速度 誠 至 相 當 於 快 步 走 的 速度 (6) 落 至 預定 落地 點 , 或 至 3 呎 滯 (7) 航 向 : +10 度",
+    "restricted": false,
+    "id": 166
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 8,
+    "page": 29,
+    "question": "落地 前 檢查 (訓練 教 範 P2-66)",
+    "answer": "(1) 確 案 檢 查 手冊 程序 實施 檢查 (2) 機 員 正 確 的 協調 操作",
+    "restricted": false,
+    "id": 167
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 9,
+    "page": 29,
+    "question": "著 陸 後 作為 (訓練 教 範 P2-100)",
+    "answer": "(1) 按 檢查 手冊 及 基地 現行 作業 規定 實施 檢查 (2) 正 確 的 機 員 協調 29",
+    "restricted": false,
+    "id": 168
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 10,
+    "page": 26,
+    "question": "航線階段要求標準 第10題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 169
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 11,
+    "page": 26,
+    "question": "航線階段要求標準 第11題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 170
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 12,
+    "page": 26,
+    "question": "航線階段要求標準 第12題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 171
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 13,
+    "page": 26,
+    "question": "航線階段要求標準 第13題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 172
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 14,
+    "page": 26,
+    "question": "航線階段要求標準 第14題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 173
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 15,
+    "page": 26,
+    "question": "航線階段要求標準 第15題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 174
+  },
+  {
+    "section": "航線階段要求標準",
+    "number": 16,
+    "page": 26,
+    "question": "航線階段要求標準 第16題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 175
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 1,
+    "page": 30,
+    "question": "模擬 大 性 能 起 飛 ( 訓 練 教 範 P2-40)",
+    "answer": "(1) 離 地 100 呎 之 前 a. 保持 起 飛 航 向 +10 度 b. 以 最 小 偏 移 量 保持 地 跡 對 正 起 飛 方 向 C. 保持 3 啄 滯 空 動力 , 加 15(+5)%, 但 不 可 超 過 扭力 或 TOT 限制 d. 模擬 超 越 障 礙 前 保持 40 2 R È (2) 離 地 100 呎 之 後 a. 保持 飛機 協調 b. 保持 起 飛 動 力 直到 獲得 爬升 空 速 之 前 10 漂 c. RAES 60 淫 空 速 ,+10 漂 d. 保持 爬升 率 ,+100 呎 / 分 鐘 e. 以 最 小 偏 移 保持 地 跡 對 正 起 飛 方 向",
+    "restricted": false,
+    "id": 176
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 2,
+    "page": 30,
+    "question": "模擬 預警 著 陸 訓 練 ( 訓 練 教 範 P2-62)",
+    "answer": "(1) 思 定 合適 之 著 陸 場 DR RER (CET SE C ETETETT Ea",
+    "restricted": false,
+    "id": 177
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 3,
+    "page": 30,
+    "question": "放棄 起 飛 訓 練 ( 訓 練 教 範 P2-42)",
+    "answer": "(1) 空 速 ;30 涅 指示 空 速 以 下 (2) 高 度 : 離 地 3-50 R (3) 避 開 障礙 物 / 地 面 , 保 持 穩定 之 減速 率 至 3 吠 滯 空",
+    "restricted": false,
+    "id": 178
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 4,
+    "page": 30,
+    "question": "斜坡 地 操作 訓練 (訓練 教 範 P2-72)",
+    "answer": "(1) 扣 作者 a. 能 熱 記 操作 手冊 有 關 斜坡 地 操作 之 限制 b. 係 持 與 斜坡 成 90 度 航向 ,15 度 C. 接觸 地 面前 不 得 有 1 呎 以 上 之 偏 移 , 接 觸 地 面 後 不 得 有 任何 偏 移 d. 柔 科 、 有 控制 之 下 降 至 接觸 地 面 e. 正確 的 機 員 協調 (2) 非 操作 者 、 觀 測 員 b. 正確 的 機 員 協 調 -30-",
+    "restricted": false,
+    "id": 179
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 5,
+    "page": 31,
+    "question": "ob A RE ERRA ak4 P2-77)",
+    "answer": "(1) 建 立 進 入 高 度 700 呎 ,+100 呎 (2) 建 立 進 入 空 速 (60 漂 ),+10 濕 (3) 保 持 地 跡 對 正 著 陸 方 向 (4) 保 持 可 避 開 障礙 物 之 進 場 角 度 (5) 著 陸 場 前 1/3 以 內 完成 著 陸 (6) 柔 和 、 有 控制 的 著 陸 , 保 持 航向 ,+10 度",
+    "restricted": false,
+    "id": 180
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 6,
+    "page": 31,
+    "question": "滯 空 自 動 旋轉 訓練 (訓練 教 範 P2-79)",
+    "answer": "(1) 進 入 前 : 建 立 3 呎 滯 空 ,+1 呎 , 機 頭 對 正 風 (2) 進 入 後 a. 保持 航向 ,+5 度 b. 保持 著 陸 位 置 ,+1 呎 c. 柔和 有 控制 地 下 降 著 陸 , 下 降 中 及 著 陸 後 不 得 向後 及 左 、 右 偏 移",
+    "restricted": false,
+    "id": 181
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 7,
+    "page": 31,
+    "question": "模擬 滯 空 中 引擎 失效 訓練 (訓練 教 範 P2-80)",
+    "answer": "(1) 瞭 解 緊 分 狀 況 ,3 定 適當 之 改正 措施 (2) 保 持 航向 ,+5 度 (3) 下 降 中 , 左 右 偏 移 不 得 超 過 1 呎 (4) 下 降 中 , 不 得 向後 偷 移 (5) 夭 和 、 有 控制 地 下 降 著 陸 , 下 降 中 及 著 陸 後 不 得 向後 及 左 、 右 偏 移 31",
+    "restricted": false,
+    "id": 182
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 8,
+    "page": 32,
+    "question": "標準 自 動 旋轉 訓練 (訓練 教 範 P2-82)",
+    "answer": "(1) 建 立 進 入 高 度 800 呎 ,+100 R (2) 建 立 進 入 空 速 (90 肖 ),+10 濕 (3) 選 定 進 入 點 (4) 檢 查 並 呼出 :RPM 在 範圍 內 、N] 穩定 、 飛 機 協調 CORRA RAR AE R AE E (6) 建 立 穩 定 自 轉 a. R RARA RAA b. 60 247 ER > +1078 C. 正常 下 降 率 d 在 預定 著 陸 點 上 (著 陸 場 前 1/3) (7) 距 地 50 呎 (+10 呎 ) 柔 和 滅 束 (8) 距 地 10 呎 初次 使用 集 體 桿 (9) 對 正 著 陸 方 向 ,+5 度 (10) 視 需要 使用 集 體 桿 使 飛 機 柔和 、 有 控制 的 著 陸 於 著 陸 場 前 1/3",
+    "restricted": false,
+    "id": 183
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 9,
+    "page": 32,
+    "question": "模擬 引擎 失效 訓練 (訓練 教 範 P2-84)",
+    "answer": "(1) 操 作者 a 建立 穩定 的 自 動 旋 轉 b. 選定 適當 追 降 場 C. 保持 最 小 下 降 率 至 最 大 下 滑 距 離 問 之 空 束 d. 呼出 :「RPM 在 範圍 內 、Nl 穩定 、 飛 機 協調 」 e. 不 得 超 過 操作 限制 f. 正確 按 教 宮 指 示 終 止 操作 g. 正確 地 與 機 員 協 調 (2) 非 操作 者 a. 適切 的 空域 視察 b. 正確 的 與 機 員 協 調 32",
+    "restricted": false,
+    "id": 184
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 10,
+    "page": 33,
+    "question": "180 度 轉 彎 標準 自 動 旋轉 訓練 (訓練 教 範 P2-88)",
+    "answer": "(1) 建 立 進 入 高 度 800 呎 ,+100 呎 (2) 建 立 進 入 空 速 00 漂 ,+10 7 (3) 選 擇 正 確 之 進 入 點 (4) 建 立 60 E FRS E (5) 呼 出 :「RPM 在 範圍 內 、N1 穩定 、 飛 機 協調 」 (6) 保 持 話 翼 轉 可 在 限制 範圍 內 (7) 距 地 200 呎 完成 最 後 轉 彎 , 地 跡 對 正 著 陸 場 (8) 距 地 100 呎 必須 處 於 穩定 自 轉 下 滑 a. 旋 民 轉 速 在 限制 範圍 內 b. 60 漂 空 束 GC. 下降 率 正常 d. 在 預定 終止 操作 區 域 上 (著 陸 場 中 央 或 前 2/3 處 ) (9) 距 地 約 50 啄 開 始 逐 漸 柔 和 減速 (10) 距 地 約 10 呎 初 殲 使 用 集 體 桿 (11) 對 正 著 陸 方 向 ,15 度 (12) 視 需要 使用 集 體 桿 使 飛 機 柔和 完成 自 轉, 著 陸 於 著 陸 場 前 1/3",
+    "restricted": false,
+    "id": 185
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 11,
+    "page": 33,
+    "question": "低空 自 動 烽 轉 訓練 (訓練 教 範 P2-91)",
+    "answer": "(1) 係 持 目視 著 陸 場 (2) 建 立 進 入 高 度 , 最 高 障礙 物 上 方 50 啄 ,+10 呎 (3) 建 立 進 入 空 速 90 > +108 (4) 選 擇 正確 進 入 位 置 (DAER R foit (6) 距 地 約 10 呎 開 始 使用 集 體 桿 (7) 對 正 著 陸 場 ,15 度 (8) 視 需要 使用 集 體 桿 緩衝 著 陸 於 著 陸 場 前 2/3",
+    "restricted": false,
+    "id": 186
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 12,
+    "page": 33,
+    "question": "動 力 恢復 訓練 (訓練 教 範 P2-93)",
+    "answer": "CDH 100% (2e Ge Eit + 60E (4) TSi 形 清除 障礙 轉 弦 (5) 保 持 飛機 協調 33",
+    "restricted": false,
+    "id": 187
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 13,
+    "page": 34,
+    "question": "模擬 尾 旋翼 失效 訓練 (訓練 教 範 P2-94)",
+    "answer": "(1) 建 立 進 入 高 度 700 R +100 R (Derita kt > aag 60 漂 ),+10 澀 (3) 保 持 穩 定之 進 入 角度 (4) 保 持 地 跡 對 正 著 陸 方 向 (5) 落 地 時 對 正 著 陸 場 方向 +10 度 (6) 竹 和 有 控制 的 於 著 陸 場 前 2/3 完成 著 陸",
+    "restricted": false,
+    "id": 188
+  },
+  {
+    "section": "緊急階段要求標準",
+    "number": 14,
+    "page": 34,
+    "question": "模擬 液壓 失效 訓練 (訓練 教 範 P2-98)",
+    "answer": "(1) 按 TH-67 操作 手冊 模擬 液壓 失效 緊急 程序 (2) 係 持 高 度 (三 邊 800 呎 、 四 邊 700R) > +100 R (3) 保 持 空 束 (三 邊 90 澤 , 四 、 五 邊 60 淫 ),+10 軍 (4) 保 持 地 跡 對 正 著 陸 方 向 (5) 保 持 穩 定之 進 場 角 度 5-8 度 (6) 以 等 於 或 略 大 於 有 效 傳導 升力 空 速 , 柔 和 、 有 控制 地 著 陸 ; 對 正 著 陸 方 向 ,+10 度 (7) 著 陸 於 著 陸 場 前 1/3 34",
+    "restricted": false,
+    "id": 189
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 1,
+    "page": 35,
+    "question": "儀器 飛行 計 畫 作為 < 訓 練 教 範 P2-137、 關 航 校 訓練 教 範 TASK 1006>",
+    "answer": "(1) 決 定 機 組 員 及 飛機 是 否 有 能 力 完成 此 任務 。 (2) 決 定 此 任務 可 否 按 飛 航 規則 (3) 決 定 適合 的 離 場 、 航 路 及 到 場 的 程序 。 (1) 選擇 適當 航路 及 高 度 以 避 開 危險 天 氣 並 遵 守 位 器 飛 航 規則 上 且 不 可 超 過 飛機 及 裝備 限制 。 (5) 如 不 在 既定 的 儀器 航路 上 , 決 定 所 需 的 航道 ,15 度 。 (6) 選 擇 符合 天 氣 、 進 場 設 備 、 飛 機 裝備 的 儀器 進 場 方式 並 決定 是 否 需 要 預備 機 場 。 (7) 量 取 並 計算 每 一 飛行 邊 (LEG) 的 距離 ,+1 涅 ; 真 空 速 ,45 漂 / 小 時 ; 地 速 ,15 汀 / 小 時 ; 預計 飛 行 時 間 ,+1 分 鎂 。 (8) 依 飛 航 規則 、 陸 航 各 飛行 規定 , 計 算 所 需 油 量 (包含 預 備 油 量 ),+3. 7 mA (9) 按 訓練 手冊 規範 確認 飛行 過 程 中 飛機 總 重 及 重心 均 在 限制 範圍 內 。 (10) 按 訓練 手冊 規範 確認 飛機 性 能 及 可 使用 馬力 可 順利 執行 本 殲 任務 。 (11) 按 陸 航 飛行 規定 及 民航 局 規範 完成 飛行 計 畫 書 填 窩 及 呈 送 。 (12) 按 各 單位 要 求 針 對 任務 實施 風險 評估 。",
+    "restricted": false,
+    "id": 190
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 2,
+    "page": 35,
+    "question": "燃油 量 管 理 < 訓 練 教 範 P2-144、 半 航 校 訓練 教 範 TASK 1048>",
+    "answer": "(1) 在 起 飛 時 , 確 認 機 上 有 足夠 燃油 以 達成 任務 。 (2) 在 起 飛 或 開 始 飛行 任務 時 , 執 行 飛行 中 燃油 消耗 檢查 。 (3) 執 行 首 殲 飛 行 中 燃油 消耗 檢查 後 的 30-60 分 鐘 內 再 次 執 行 飛行 中 燃油 消耗 檢查 。 (4) 實 際 消耗 如 與 計 畫 不 同 或 剩餘 燃油 量 無 法 完成 任務 時 , 應 採取 備用 計 畫 。 (5) 飛 行 中 經 常 檢 查 燃油 量 及 消耗 率 。",
+    "restricted": false,
+    "id": 191
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 3,
+    "page": 35,
+    "question": "儀器 起 飛 訓 練 < 訓 練 教 範 P2-149、 美 航 校 訓練 教 範 TASK 1170>",
+    "answer": "(1) 設 定 麥 態 儀 , 水 平 線 上 5 度 。 (2) 保 持 所 需 起 飛馬 力 ,+5%。 (3) 保 持 加 速 爬 升 雪 態 ,+1 個 BAR 的 寬度 。 (4) 獲 得 傳導 升力 後 , 保 持 飛機 協調 。 附註 ; 本 軍 主 要 妻 態 儀 無 法 調整 , 備 用 雪 態 儀 可 調整 。",
+    "restricted": false,
+    "id": 192
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 4,
+    "page": 35,
+    "question": "無 線 電 導航 訓練 訓練 教 範 P2-151、 美 航 校訓 練 教 範 TASK 1172>",
+    "answer": "(1) 扣 作者: (a) 正 確 判 斷 飛 機 位 置 。 (b) 正 確 攔 截 並 維持 所 需 航 跡 : (a)VOR $i: ,+5 度 。 (b)LOC 航 跡 , 少 於 一 整 格 的 偏 移 。 (c)GPS 航 跡 , 於 一 整 格 的 偏 移 。 (c) 正 確 判 別 通過 地 面 電台 或 GPS 檢查 點 。 (2) 非 操作 者 : (a) 正 確 要 求 、 知 悉 及 抄 收 航 管 賤 予 的 許可 資訊 。 《(b) 正 確 經 由 導航 圖 的 輔助 調 定 及 識別 適當 的 導航 台 。 (Cc) 正 確 判 別 飛 機 、 地 面 電 台 及 檢查 點 位 置 。 aag",
+    "restricted": false,
+    "id": 193
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 5,
+    "page": 36,
+    "question": "RAAE P2-154 > K Aikalekgg TASK 1172>",
+    "answer": "(1) 正 確 調 定 並 識別 所 需 的 助 航 設施 。 (2) 正 確 建 立 待 命 航 線 。 (3) 保 持 高 度 ,+100 R + (2) 保 持 空 速 ,+10 澀 。 (5) 在 每 一 待命 邊 上 , 正 確 計 時 與 循 跡 。",
+    "restricted": false,
+    "id": 194
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 6,
+    "page": 36,
+    "question": "不 正常 妻 態 改 正 訓練 < 訓 練 教 範 P2-157、 關 航 校訓 練 教 範 TASK 1182>",
+    "answer": "(1) 正 確 判 斷 飛機 雪 態 。 (2) 立 即 按 程序 改正 。 (3) 改 正 過 程 不 得 超 過 飛機 操作 限制 , 並 減少 高 度 損失 。 T. 無 線 電通 信 程 序 訓練 < 訓 練 教 範 P2-158、 美 航 校 訓練 教 範 TASK 1032> (1) 扣 作者 : (a) 檢 查 並 操作 飛機 航 電 裝備 。 (b) 與 個 人 、 單 位 或 航 管 建立 並 維持 無 線 電 通聯 。 (c) 使 用 符合 當 下 狀況 的 無 線 電 程 序 及 術語 。 (d) 正 確 操 作 機 內 通話 系 統 。 (2) 非 操作 者 :(a) 調 定 所 要 求 之 航 電 週 率 。 (3) 依 訓練 手冊 或 飛 航 規則 操作 雙向 無 線 電 失效 程序 。",
+    "restricted": false,
+    "id": 195
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 7,
+    "page": 36,
+    "question": "儀器 進 場 訓練 訓練 教 範 P2-160、 美 航 校訓 練 教 範 TASK 1176/1178>",
+    "answer": "(1) 非 精確 進 場 : (a) 操 作者 : (1) 依 據 陸 航 管理 手冊 、 美 軍 儀 飛 手 冊 、eAIP、 空 軍 終 端 程 序 實施 儀器 進 場 。 (2) 維 持 所 需 航 跡 如 下 : (a)NDB:45 度 。 (b)VOR:CDI 1648 1/2 格 以 內 或 指針 15 度 。 (c)LOC:CDI 偷 移 1 格 以 內 。 (3) 在 ASR 進 場 時 , 依 據 航 管 指 示 立 即 調整 並 修正 高 度 及 航向 。 保 持 航向 ,+5 度 。 (4) 遵 守 進 場 圖 中 最 低下 降 數 據 。 (5) 在 到 達 誤 失 進 場 點 卻 無 法 完成 落地 時 , 顏 立即 執行 正確 的 誤 失 進 場 程序 。 (b) 非 操作 者 : (1) 正 確 要 求 、 知 悉 及 抄 收 航 管 賤 予 的 資訊 。 (2) 正 確 按 空軍 終端 儀器 程序 調 定 適合 的 通訊 周 率 。 (3) 正 確 按 空軍 終端 儀器 程序 提供 操作 者 進 場 最 低 數 據 。 (2) 精 確 進 場 : (I) 係 持 頒布 或 許可 的 進 場 航 線 : Ca)ILS: 44 HSI P CDI 1645 1 格 以 內 ; 最 後 進 場 時 , 維 持 下 滑 道 指示 器 偏 移 1 格 以 內 。 (b)GCA: 指 定 的 航向 , 5e (c) 依 據 航 管 指 示 立 即 調整 並 修正 高 度 和 航向 。 (2) 如 eAIP 及 空軍 終端 程序 沒 有 間 當 的 落地 標準 , 在 到 達 DH/DA 時 , 開 始 執行 誤 失 進 場 程 序 。 (3) 視 需要 遵守 過 當 的 誤 失 進 場 程 序 。 36",
+    "restricted": false,
+    "id": 196
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 8,
+    "page": 37,
+    "question": "誤 失 進 場 訓 練 《 訓 練 教 範 P2-164、 美 航 校訓 練 教 範 TASK 3001. 07>",
+    "answer": "(1) 係 持 頒布 或 許可 的 進 場次 線 (a)NDB 航線 : 二 度 。 (b)VOR 航線 : 5R e (c)LOC 航線 : HSI P CDI 偏 移 1 格 以 內 (d)GCA 航線 : 指示 之 航向 ,+5 度 。 (2) 保持 所 需 之 空 速 ,+10 澤 。 (3) 保 持 適 當 之 高 度 ,+100 呎 。 (4) 到 達 誤 失 進 場 點 時 , 依 據 空 軍 終 映 程 序 及 航 管 指 示 操 作 正 確 的 誤 失 進 場 程 序 ; 若 無 法 遵循 則 依 軍民 航 規 定 落地 。",
+    "restricted": false,
+    "id": 197
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 9,
+    "page": 37,
+    "question": "儀表 飛行 訓練 < 訓 練 教 範 P2-165、 關 航 校 訓練 教 範 TASK 3001. 01-06>",
+    "answer": "(1) 平 直 飛 行 (a) 保 持 飛 機 協調 。 (RH ER > t1032 e (c) 保 持 高 度 ,+100 R o (d) 保 持 航向 ,+10 度 。 (2) 上 升 / 下 降 : (a) 保 持 飛 機 協調 。 (b) 保 持 空 速 ,+10 e (c) 係 持 高 度 ,+100 呎 (進 入 及 改 出 )。 (d) 保 持 指定 爬升 / 下 降 率 ,+100 呎 / 分 鐘 。 (ee) 保持 航向 ,+10 度 。 (OHF: (RRR Y KREAS: CHRR RRS © (2) 保 持 適 當 空 速 ,+10 漂 。 (3) 保 持 高 度 ,+100 呎 。 (4) 保 持 適當 轉 彎 率 (轉 彎 坡度 ),15 度 。 (5) 保 持 進 入 及 改 出 航向 ,+10 度 ; (b) 上 升 / 下 降 轉 彎 : (1) 完 成 180 度 ,+10 ARY (2) 完 成 500 呎 / 分 鐘 ,+100 呎 / 分 鐘 上 升 及 下 降 率 (3) 保 持 飛機 協調 。 (4) 保 持 空 速 ,+10 e o (5) 係 持 指 定 升 / 降 速率 ,+100 呎 / 分 鐘 。 CA): COVIRAE A E E GEE E) 5e È: (a) 保 持 飛機 協調 。 (b) 保 持 適 當 空 速 ,+10 漂 。 《(c) 你 持 高 度 ,+100 K e (d) 係 持 航 向 ,+10 度 。 (eME S h 85% 以 下 。 37",
+    "restricted": false,
+    "id": 198
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 10,
+    "page": 35,
+    "question": "儀器要求標準 第10題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 199
+  },
+  {
+    "section": "儀器要求標準",
+    "number": 11,
+    "page": 35,
+    "question": "儀器要求標準 第11題（原始PDF題目）",
+    "answer": "此題原始內容未被文字辨識完整；請以網站附帶的原始PDF頁面核對。",
+    "restricted": false,
+    "id": 200
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 1,
+    "page": 38,
+    "question": "戰術／夜視鏡要求標準 第1題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 201
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 2,
+    "page": 38,
+    "question": "戰術／夜視鏡要求標準 第2題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 202
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 3,
+    "page": 38,
+    "question": "戰術／夜視鏡要求標準 第3題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 203
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 4,
+    "page": 39,
+    "question": "戰術／夜視鏡要求標準 第4題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 204
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 5,
+    "page": 39,
+    "question": "戰術／夜視鏡要求標準 第5題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 205
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 6,
+    "page": 40,
+    "question": "戰術／夜視鏡要求標準 第6題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 206
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 7,
+    "page": 40,
+    "question": "戰術／夜視鏡要求標準 第7題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 207
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 8,
+    "page": 40,
+    "question": "戰術／夜視鏡要求標準 第8題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 208
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 9,
+    "page": 40,
+    "question": "戰術／夜視鏡要求標準 第9題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 209
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 10,
+    "page": 40,
+    "question": "戰術／夜視鏡要求標準 第10題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 210
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 11,
+    "page": 41,
+    "question": "戰術／夜視鏡要求標準 第11題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 211
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 12,
+    "page": 41,
+    "question": "戰術／夜視鏡要求標準 第12題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 212
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 13,
+    "page": 41,
+    "question": "戰術／夜視鏡要求標準 第13題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 213
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 14,
+    "page": 42,
+    "question": "戰術／夜視鏡要求標準 第14題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 214
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 15,
+    "page": 38,
+    "question": "戰術／夜視鏡要求標準 第15題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 215
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 16,
+    "page": 38,
+    "question": "戰術／夜視鏡要求標準 第16題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 216
+  },
+  {
+    "section": "戰術（夜視鏡）要求標準",
+    "number": 17,
+    "page": 38,
+    "question": "戰術／夜視鏡要求標準 第17題",
+    "answer": "此題涉及軍事戰術／作戰程序，網站不顯示其操作細節。請依原始訓練教材與合規教官指導學習。",
+    "restricted": true,
+    "id": 217
+  },
+  {
+    "section": "空氣動力學",
+    "number": 1,
+    "page": 43,
+    "question": "直升機 飛行 包含 那 些 理論 ?",
+    "answer": "(1) 柏 利 原 理 ( 汶 氏 管 效應 ) 牛 頓 運 動 定 律 。",
+    "restricted": false,
+    "id": 218
+  },
+  {
+    "section": "空氣動力學",
+    "number": 2,
+    "page": 43,
+    "question": "何謂 柏 諾 利 ( 柏 退 力 士 ) 定 律 ?",
+    "answer": "(1) 即 汶 氏 菅 效 座 , 在 說 明 流體 之 速度 愈 快 所 經 之 表 面 壓 力 愈 小 。",
+    "restricted": false,
+    "id": 219
+  },
+  {
+    "section": "空氣動力學",
+    "number": 3,
+    "page": 43,
+    "question": "請 寫 出 牛頓 之 運動 定律 ?",
+    "answer": "(1) 慣 性 定律 : 動 者 恆 動 , 靜 者 恆 靜 。 (2) 加 速度 定律 : 物體 之 運動 力量 與 其 質量 和 加 遠 度 成 正比 。 (3) 反 作用 定律 : 每 一 作用 力 皆 產生 一 大 小 相 同 方向 相 反之 作用 力 。",
+    "restricted": false,
+    "id": 220
+  },
+  {
+    "section": "空氣動力學",
+    "number": 4,
+    "page": 43,
+    "question": "與 直升機 飛行 相 關 的 力 有 那 些 ?",
+    "answer": "(1) 升 力 (2) 重 力 (3) 推 力 (4) 阻 力 Oh (6) 離 心力 。",
+    "restricted": false,
+    "id": 221
+  },
+  {
+    "section": "空氣動力學",
+    "number": 5,
+    "page": 43,
+    "question": "何謂 機 異類 型 ? 直升機 機 異類 型 設計 有 哪些 ?",
+    "answer": "(1) 即 能 提供 飛機 升力 之 異 面 型 狀 設計 , 通 常 以 其 剖面 分 為 對 稱 及 不 對 稱 兩 種 民 型 設計 。",
+    "restricted": false,
+    "id": 222
+  },
+  {
+    "section": "空氣動力學",
+    "number": 6,
+    "page": 43,
+    "question": "對 稱 機 異型 與 不 對 稱 機 暴 之 優劣 為 何 ? AA PI",
+    "answer": "(1) 對 稱 機 距 : 壓 力 中 心 穩 定 , 可 提供 大 空 速 、 大 衝 角 , 製 造 容 易 成 本 低 但 升力 較 小 。 (2) 不 對 稱 機 真 : 可 提供 大 升力 之 高 性 能 但 製造 成 本 較 高 , 壓 力 中 心 不 定 , 但 由 於 設計 及 材質 之 進 步 , 此 問題 己 被 克服 。",
+    "restricted": false,
+    "id": 223
+  },
+  {
+    "section": "空氣動力學",
+    "number": 7,
+    "page": 43,
+    "question": "TATARI? 何謂 烽 轉 碟 面 ?",
+    "answer": "(1) 民 弦 線 即 通過 異型 前 緣 及 後 緣 中 肉 假 想 直線 , 旋 轉 碟 面 即 許 異 糙 轉 所 造成 之 話 轉 平面 。 43",
+    "restricted": false,
+    "id": 224
+  },
+  {
+    "section": "空氣動力學",
+    "number": 8,
+    "page": 44,
+    "question": "Æ ERR kit Zik? A PT8",
+    "answer": "MARE CORRE e (3) 高 密度 高 度 。 DSA (5) 亂 流 。 (6) 從 族 翼 失速 恢復 。",
+    "restricted": false,
+    "id": 225
+  },
+  {
+    "section": "空氣動力學",
+    "number": 9,
+    "page": 44,
+    "question": "何謂 地 面 效 應 ? 脫 離 之 高 度 為 何 ?",
+    "answer": "(1) 直 升 機 誕 殿 蔡 肯 放量 抽送 形成 較 笛 密 之 空氣 與 下 洗 氣流 沖擊 地 表 面 反彈 結合 形成 之 空氣 墊 , 稱 為 地 面 效 應 , 愈 接近 地 面 盒 強 , 滯 空 高 度 大 約 達 一 個 放 翼 直徑 以 上 消失 。",
+    "restricted": false,
+    "id": 226
+  },
+  {
+    "section": "空氣動力學",
+    "number": 10,
+    "page": 44,
+    "question": "何謂 有 效 傳導 升力 ? 獲 得 之 時 機 為 何 ?",
+    "answer": "(1) 直 升 機 起 飛 向 前 加 速 在 獲得 某 一 特 定 空 速 時 , 湯 擾 與 地 面 效 應 皆 消失 , 空 氣流 與 族 轉 碟 面 平 行 , 所 有 田 型 構造 產生 作用 , 飛 機 獲得 額外 之 升力 , 此 時 稱 之 為 有 效 傳導 升力 , 其 獲得 時 機 依 飛機 大 小 華 片 面積 , 族 翼 塌 速 而 有 些微 差異 。 有 效 傳導 昇 力 (ETL) 發 生 在 直升機 約 16 至 2438-",
+    "restricted": false,
+    "id": 227
+  },
+  {
+    "section": "空氣動力學",
+    "number": 11,
+    "page": 44,
+    "question": "何謂 橫流 效應 ?",
+    "answer": "(1) 直 升 機 起 飛 獲 得 有 效 傳導 升力 之 前 或 進 場 , 有 效 傳 導 升 力 消失 之 後 , 此 時 流 經 炊 轉 碟 面 前 後 之 空氣 流 , 產 生 升力 差 動 , 使 飛機 拌 動 增加 是 為 橫流 效應 , 常 發 生 在 10 A 2038",
+    "restricted": false,
+    "id": 228
+  },
+  {
+    "section": "空氣動力學",
+    "number": 12,
+    "page": 44,
+    "question": "何謂 移動 越 勢 ? A PAL",
+    "answer": "(1) 單 主 旋翼 尾 話 異 設計 之 直升機 , 當 主 旋翼 許 轉 造成 機 首 向 相 反方 向 之 反 佐 用 力 , 必 笑 利 用 尾 族 曙 推 或 拉 之 力量 , 以 中 和 此 種 扭力 造成 向 推 或 拉 方 向 之 移動 趨勢 , 於 是 在 設計 中 利用 主 承 桿 或 旋 哎 天 狡 之 方式 抵消 此 種 移動 趨勢 。",
+    "restricted": false,
+    "id": 229
+  },
+  {
+    "section": "空氣動力學",
+    "number": 13,
+    "page": 44,
+    "question": "直升機 阻力 有 那 些 ? 滯 空 時 阻力 為 何 ?",
+    "answer": "(1) 直 升 機 向 前 飛行 時 主 要 阻力 有 六 面 阻力 , 誘 導 阻力 及 寄生 阻力 , 滯 空 時 僅 有 剖面 阻力 及 誘導 阻 力",
+    "restricted": false,
+    "id": 230
+  },
+  {
+    "section": "空氣動力學",
+    "number": 14,
+    "page": 44,
+    "question": "同 步 升 降 舵 之 功用 功 為 何 ?",
+    "answer": "(1) 有 助 於 減少 巷 片 跌 動 與 擴大 直昇機 允許 的 重心 範圍 。",
+    "restricted": false,
+    "id": 231
+  },
+  {
+    "section": "空氣動力學",
+    "number": 15,
+    "page": 44,
+    "question": "後 退 旋 翼 失速 之 原 因 ?",
+    "answer": "(1) 當 前 進 速度 增加 , 後 退 巷 片 的 無 升力 面積 變 大 , 從 而 對 逐漸 減 小 的 後 退 橋 翼 部 分 , 產 生 更 大 升 力 需求 , 這 個 較 小 葉月 的 部 分 需要 更 大 的 攻 角 直到 翼 尖 ( 最 大 攻 角 的 面積 ) 失 可 , -44-",
+    "restricted": false,
+    "id": 232
+  },
+  {
+    "section": "空氣動力學",
+    "number": 16,
+    "page": 45,
+    "question": "帶 動力 下 沉 之 原 因 及 改正 措施 ?",
+    "answer": "ORA A FRE Eh BEB REKAAN AEREA m zk t FE 度 、 減 少 載 重 及 減低 操縱 量 。",
+    "restricted": false,
+    "id": 233
+  },
+  {
+    "section": "空氣動力學",
+    "number": 17,
+    "page": 45,
+    "question": "動 力 翻 渡 之 定義 ?",
+    "answer": "(1) 當 直昇機 開 始 圍繞 其 滑板 、 輪 胎 或 與 地 面接 觸 飛機 的 任何 部 分 話 轉 時 , 未 使用 正確 適當 著 陸 、 起 飛 技 術 或 在 執行 鋅 坡 操 作 時 , 可 能 發 生 動力 翻滾 。",
+    "restricted": false,
+    "id": 234
+  },
+  {
+    "section": "空氣動力學",
+    "number": 18,
+    "page": 45,
+    "question": "動 力 翻滾 之 三 種 條 件 ?",
+    "answer": "(1) 支 點 (2) 翻 滾 運 動 (3) 超 過 的 臨界 角 。",
+    "restricted": false,
+    "id": 235
+  },
+  {
+    "section": "空氣動力學",
+    "number": 19,
+    "page": 45,
+    "question": "地 面 共 振 之 原 因 及 改正 措施 ? AA P80",
+    "answer": "(1) 大 都 發 生 在 三 片 許 異 全 關節 式 輪 型 起 之 直升機 , 因 起 降 時 單 邊 輪 先 後 相 互 碰撞 地 面 , 造 成 旋翼 片 問 水 平角 度 因 超 前 滯後 掠 移 , 失 去 平 身 , 幅 度 持續 增加 , 將 使 結 構 變形 嚴重 後 果 ; 改正 措施 為 柔和 將 飛機 改 平 重新 回 到 滯 空 。",
+    "restricted": false,
+    "id": 236
+  },
+  {
+    "section": "空氣動力學",
+    "number": 20,
+    "page": 45,
+    "question": "動力 翻滾 的 人 為 因素 ?",
+    "answer": "(1) 注 意 力 不 集 中 (DERF (3) 未 及 時 採取 改正 措施 (RERE (5) 失 去 視覺 參考 21",
+    "restricted": false,
+    "id": 237
+  },
+  {
+    "section": "空氣動力學",
+    "number": 21,
+    "page": 45,
+    "question": "何 步驟 可 使 飛 行 員 能 夠 從 話 異 失 玉 中 恢復 ?",
+    "answer": "(1) 減 低 集 體 桿 。 (2) 降 低空 速 。 (3) 下 降 至 較 低 高 度 (如 果 可 能 )。 (4) 增 加 旋翼 韓 速 至 正常 限制 。 (5) 際 低 猛 烈 的 戰術 動作 。 45",
+    "restricted": false,
+    "id": 238
+  },
+  {
+    "section": "空氣動力學",
+    "number": 22,
+    "page": 46,
+    "question": "何 操作 條 件 中 最 不 利 壓 縮 條 件 ?",
+    "answer": "(1) 空 遠大 。 OREBE” (3) 大 載重 。 (4) 高 密度 高 度 。 (5) 高 G 戰術 動作 。 (6) 低 溫度 。 (7) 亂 流",
+    "restricted": false,
+    "id": 239
+  },
+  {
+    "section": "空氣動力學",
+    "number": 23,
+    "page": 46,
+    "question": "壓縮 效應 改正 措施 ?",
+    "answer": "(1) 減 低 集 體 桿 。 (3) 淺 少 猛烈 的 戰術 動作 。 (4) 減 少 空 速 。",
+    "restricted": false,
+    "id": 240
+  },
+  {
+    "section": "空氣動力學",
+    "number": 24,
+    "page": 46,
+    "question": "何謂 陀螺 效應 ?",
+    "answer": "(1) 族 轉 中 之 物體 在 其 某 一 點 上 施 力 , 其 作用 力 必 在 旋 韓 方向 後 90 度 顯現 ,",
+    "restricted": false,
+    "id": 241
+  },
+  {
+    "section": "空氣動力學",
+    "number": 25,
+    "page": 46,
+    "question": "何謂 壓縮 效應 ?",
+    "answer": "(1) 族 嗣 許 轉速 度 加 上 飛機 前 進 速度 , 使 前 進 放 殿 產生 極 高 之 相 對 速度 , 當 此 速度 超 過 同 赫 時 , 即 產生 壓縮 效應 46",
+    "restricted": false,
+    "id": 242
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 1,
+    "page": 47,
+    "question": "進 入 儀器 天 氣 狀 況 程序 ( 關 陸 航 訓 練 教 範 4-59)",
+    "answer": "A(CAnnounce 宣布 進 入 儀器 天 氣 WCWing is level): 保 持 飛機 平穩 HCHeading): 保 持 安全 航向 ACAir speed): 3 t Ri Zit TCTorque): Hmh RHE RDSE SCSOP) : Ae FE Atr A AE ME RE AE EENE 夜 視 鏡 電源 失效 程序 (聯合 任務 提示 PPT)",
+    "restricted": false,
+    "id": 243
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 2,
+    "page": 47,
+    "question": "ETERRAK",
+    "answer": "A 系 交接",
+    "restricted": false,
+    "id": 244
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 3,
+    "page": 47,
+    "question": "清除 障 吳 爬升 高 度",
+    "answer": "£ 轉 換 使用 備用 電池",
+    "restricted": false,
+    "id": 245
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 4,
+    "page": 47,
+    "question": "如 夜 視 鏡 持續 失效 取消 夜 視 鏡 飛 行",
+    "answer": "無 線 電 失效 程序 (聯合 任務 提示 PPT)",
+    "restricted": false,
+    "id": 246
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 5,
+    "page": 47,
+    "question": "嘗試 使用 所 有 無 線 電 ,",
+    "answer": "呼叫 所 有 頻",
+    "restricted": false,
+    "id": 247
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 6,
+    "page": 47,
+    "question": "禁止 滑行 或 起 飛 , 在 空 機 則 外 升 至 衝 場 高 度 ( 歸 仁 為 1000 呎 ), 將 夜 視 鏡 取 下 實施 衝 場 , 落 地 燈 ( 搜",
+    "answer": "視 台 燈光 指示 及 航線 狀況 後 , 加 入 三 邊 , 五 邊 時 再 將 落地 燈 (搜索 燈 ) 開 關 REHN ZR 落地 3 回 檢修",
+    "restricted": false,
+    "id": 248
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 7,
+    "page": 47,
+    "question": "目視 夜 航 時 之 考量",
+    "answer": "ARRA ` DAREA ` ERA 暗 適 應 力",
+    "restricted": false,
+    "id": 249
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 8,
+    "page": 47,
+    "question": "夜 視力 由 何 建 立",
+    "answer": "由 視網膜 內 桿 細胞 之 化 學 反應 ( 視 紫 紅 質 ) 建 立",
+    "restricted": false,
+    "id": 250
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 9,
+    "page": 47,
+    "question": "夜 視 力 需 多 久 建立",
+    "answer": "依 個 人 起 始 點 不 同 , 約 30 分 鐘 內 可 建立 約 80% 之 夜 視 能 力 但 可 能 需要 數 小 時 甚至 數 日 以 建立 個 人 最 佳 辯 識 能 力",
+    "restricted": false,
+    "id": 251
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 10,
+    "page": 47,
+    "question": "夜視鏡階段學科問答 第10題",
+    "answer": "太 陽 眼 鏡 須 具備 多 少 亮度 傳 輪 ( 關 原 P185) 15% 或 以 下",
+    "restricted": false,
+    "id": 252
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 11,
+    "page": 47,
+    "question": "何 為 中 間 視 覺",
+    "answer": "光 視 覺 與 早 視 覺 問 的 韓 換 區 間 光 度 , 相 當 於 若 光 或 黃昏 時 之 光度",
+    "restricted": false,
+    "id": 253
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 12,
+    "page": 47,
+    "question": "夜 適應 下 , 飛 行 員 應 遊 免 下列 光 源",
+    "answer": "避免 直視 閃光 、 火 焰 、 及 炮 口 焰 以 預防 暫時 之 閃光 失明",
+    "restricted": false,
+    "id": 254
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 13,
+    "page": 47,
+    "question": "錐 細胞 在 何 種 強 況 會 失去 作用",
+    "answer": "在 接近 50% 或 以 下 之 照明 度 情況 下",
+    "restricted": false,
+    "id": 255
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 14,
+    "page": 47,
+    "question": "夜間 言 點 發 生 原 因 ( 關 原 P188)",
+    "answer": "為 視網膜 中 央 圍 部 分 缺乏 桿 細胞 。 此 狀況 發 生 於 低 光 度 環境 使 錐 細胞 無 法 使用 時 , 並 產生 由 視 中 央 向 外 5-10 K2 E%",
+    "restricted": false,
+    "id": 256
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 15,
+    "page": 47,
+    "question": "視覺 種 類 分 為 哪 幾 種 ( 關 原 P184)",
+    "answer": "光 視 覺 、 中 間 視 覺 、 暗 視覺",
+    "restricted": false,
+    "id": 257
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 16,
+    "page": 47,
+    "question": "夜間 讓 點 解決 方法",
+    "answer": "可 由 適當 掃描 技巧 與 避 開 中 心 視覺 獲得 補償",
+    "restricted": false,
+    "id": 258
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 17,
+    "page": 47,
+    "question": "提升 至 最 佳 敏銳 度 及 辦 識 暗 環境 所 需 時 間",
+    "answer": "30 Æ 45 分 鐘",
+    "restricted": false,
+    "id": 259
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 18,
+    "page": 47,
+    "question": "ANVIS 配 重",
+    "answer": "配 重 不 得 超 過 22 A 並 且 必須 放 在 配 重 袋 中 以 便 在 硬 著 陸 時 能 夠 適 當 分 離 47",
+    "restricted": false,
+    "id": 260
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 19,
+    "page": 48,
+    "question": "何 種 能 見 度 限制 會 降低 ANVIS 的 有 效 性",
+    "answer": "HERRE ERREI",
+    "restricted": false,
+    "id": 261
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 20,
+    "page": 48,
+    "question": "何 種 動作 往往 導致 空間 述 失 方 向",
+    "answer": "避免 需要 大 坡度 角 快速 雪 態 變化 的 機 動 18.",
+    "restricted": false,
+    "id": 262
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 21,
+    "page": 48,
+    "question": "損 光 通常 發 生 在 何時",
+    "answer": "通常 發 生 在 日 落後 的 第 一 個 小 時 和 日 出 前 的 第 一 個 小 時 19.",
+    "restricted": false,
+    "id": 263
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 22,
+    "page": 48,
+    "question": "視覺 距離",
+    "answer": "飛行 員 能 夠 識別 物體 在 強 光 條 件 下 , 其 形狀 各 尺寸 可 達 1, 500 公 尺 ; 但 是 , 在 弱 光 條 件 下 , 他 們 可 能 無 法 識別 500 公 尺 處 的 物體 20,",
+    "restricted": false,
+    "id": 264
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 23,
+    "page": 48,
+    "question": "如 何 防止 夜間 空間 迷 向",
+    "answer": "適當 的 掃描 技術 使用 緩慢 , 有 目的 的 頭 部 運動 和 正確 的 飛機 控制 以 及 適當 的 符號 模式 以 防止 空間 迷失 方向 21.",
+    "restricted": false,
+    "id": 265
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 24,
+    "page": 48,
+    "question": "夜間 環境 光源 有 哪些",
+    "answer": "環境 光 由 月 亮 和 星星 等 自 然 光 源 和 飛機 照明 和 文 化 照明 等 人 工 光源 提供 22, 對 比 度 的 程度 取決 於 哪些 項目 (美 飛行 基本 原 理 p. 214)",
+    "restricted": false,
+    "id": 266
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 25,
+    "page": 48,
+    "question": "環境 光 的 類 型 與 數 量",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 267
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 26,
+    "page": 48,
+    "question": "物體 的 紋理",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 268
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 27,
+    "page": 48,
+    "question": "背景",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 269
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 28,
+    "page": 48,
+    "question": "物體 是 否 被 照 亮",
+    "answer": "23.",
+    "restricted": false,
+    "id": 270
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 29,
+    "page": 48,
+    "question": "何 種 情況 會 降低 夜 視 能 力",
+    "answer": "位 置 燈 和 導航 燈 的 不 當 使用 24.",
+    "restricted": false,
+    "id": 271
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 30,
+    "page": 48,
+    "question": "低 對 比 度 的 環境 有 哪些",
+    "answer": "如 白雪 覆蓋 的 地 區 、 沙 質 沙 漢 、 大 片 水 域 、 草 山 25.",
+    "restricted": false,
+    "id": 272
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 31,
+    "page": 48,
+    "question": "夜間 飛行 應 避免 之 危險",
+    "answer": "需 考慮 夜間 飛行 的 許多 危險 , 例 如 : 激 光 神 經 毒劑 、 飛 機 照明 等 26.",
+    "restricted": false,
+    "id": 273
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 32,
+    "page": 48,
+    "question": "疲勞 種 類",
+    "answer": "商 勞 分 為 3 種類 型 , 急 性 疲勞 、 累 積 性 疫 夢 、 畫 夜 節 律 性 疲勞",
+    "restricted": false,
+    "id": 274
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 33,
+    "page": 48,
+    "question": "夜視鏡階段學科問答 第33題",
+    "answer": "無 論 使 用 哪 種 照明 設備 , 都 應 如 何 使用 以 識別 著 陸 點 ( 關 原 P252) RAED AR ARED 15 啄 28, 暗 視 力 將 辦 色 能 力 降低 為 何 種 視覺 顏色 ( 關 原 P186) 黑 、 夜 、 白 之 色 階 29,",
+    "restricted": false,
+    "id": 275
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 34,
+    "page": 48,
+    "question": "空勤 人 員 實 施 目視 應 於 照明 度 多 少 以 下 實施",
+    "answer": "15%",
+    "restricted": false,
+    "id": 276
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 35,
+    "page": 48,
+    "question": "夜視鏡階段學科問答 第35題",
+    "answer": "PTR E SECA P188)",
+    "restricted": false,
+    "id": 277
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 36,
+    "page": 48,
+    "question": "EER A ARA P R DRL AF o",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 278
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 37,
+    "page": 48,
+    "question": "發 生 於 低 光 度 環境",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 279
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 38,
+    "page": 48,
+    "question": "產生 由 視 中 央 向 外 5-10 AEZ EE",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 280
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 39,
+    "page": 48,
+    "question": "何 情況 表 明 能 見 度 受 限",
+    "answer": "視力 下 隆 、 地 面 燈 光 消 失 、 天 光 消 遁",
+    "restricted": false,
+    "id": 281
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 40,
+    "page": 48,
+    "question": "月 光 的 光量 受 何 影響 ( 關 原 P208)",
+    "answer": "月 球 週 期 、 月 球 角 度",
+    "restricted": false,
+    "id": 282
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 41,
+    "page": 48,
+    "question": "日落 時 太 陽 與 地 球 之 關係",
+    "answer": "完全 低 於 地 平 線",
+    "restricted": false,
+    "id": 283
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 42,
+    "page": 48,
+    "question": "天 文 黃昏 時 太 陽 與 地 球 之 關係",
+    "answer": "低 於 地 平 線 12-18 度 48-",
+    "restricted": false,
+    "id": 284
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 43,
+    "page": 49,
+    "question": "ALTAE Rho k R (AA P231)",
+    "answer": "1, RRIEK 30 度",
+    "restricted": false,
+    "id": 285
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 44,
+    "page": 49,
+    "question": "BAH RR AR eR M",
+    "answer": "3AF",
+    "restricted": false,
+    "id": 286
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 45,
+    "page": 49,
+    "question": "影響 NVG 視力 的 變量",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 287
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 46,
+    "page": 49,
+    "question": "NVG 的 類 型 、 年 齡 和 狀況",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 288
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 47,
+    "page": 49,
+    "question": "個 人 熟練 程度 和 能 力",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 289
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 48,
+    "page": 49,
+    "question": "飛機 擋 風 玻 玉 清 潔 度",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 290
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 49,
+    "page": 49,
+    "question": "IR 探照燈 的 優點 或 侷限 性",
+    "answer": "地 形 反 射 率",
+    "restricted": false,
+    "id": 291
+  },
+  {
+    "section": "夜視鏡階段學科問答",
+    "number": 50,
+    "page": 49,
+    "question": "夜視鏡階段學科問答 第50題",
+    "answer": "在 NVG 期 間 機 長 可 決定 使用 何 裝 備 輔助 操作 ( 關 原 P237) IR 探照燈",
+    "restricted": false,
+    "id": 292
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 1,
+    "page": 50,
+    "question": "精確 進 場 可 提供 哪些 導 引 之 標準 儀器 進 場 程 序 ? 儀 附 2-318",
+    "answer": "答 : 高 度 與 距離",
+    "restricted": false,
+    "id": 293
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 2,
+    "page": 50,
+    "question": "飛行 前 周詳 的 計 畫 是 成 功 飛行 的 關鍵 , 而 在 整個 飛行 計劃 中 , 主 要 可 分 為 哪 三 大 部 分 ?",
+    "answer": "答 : 計 劃 離 場 、 計 劃 航路 飛行 及 計劃 進 場 。",
+    "restricted": false,
+    "id": 294
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 3,
+    "page": 50,
+    "question": "空軍 終端 儀器 程序 中 , 圖 例 說 明 部 分 區 分 哪 幾 部 分 說 明 ?",
+    "answer": "答 :(1) 平 面 圖 符號 。(2) 側 面 圖 符號 。(3) 祺 場 建 設 略 圖 。(4) 儀 器 飛行 規則 ( Instrument Flight Rules 以 下 簡稱 IFR) 落 地 最 低 限度 。",
+    "restricted": false,
+    "id": 295
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 4,
+    "page": 50,
+    "question": "落地 最 低 限度 設立 為 幾 種 航空 器 進 場 分 類 ? 分 別 為 何 ?",
+    "answer": "答 : 六 種 ;A、B、C、D、E 及 直升機 , 如 無 直升機 最 低 限度 直升機 可 使用 程序 中 上 類 最 低 限度 。",
+    "restricted": false,
+    "id": 296
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 5,
+    "page": 50,
+    "question": "高 度 有 幾 種 ? 儀 附 全 340",
+    "answer": "答 : 絕 對 高 度 、 壓 力 高 度 、 密 度 高 度 、 指 示 高 度 、 校 正 高 度 及 真 高 度 。",
+    "restricted": false,
+    "id": 297
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 6,
+    "page": 50,
+    "question": "空 速 有 幾 種 ? 儀 附 4-334",
+    "answer": "答 : 指 示 空 速 、 校 正 空 速 、 真 空 速",
+    "restricted": false,
+    "id": 298
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 7,
+    "page": 50,
+    "question": "儀器 進 場 圖 中 標題 包含 哪些 資訊 ?",
+    "answer": "答 :(1) 進 場 種類 與 名 稱 (2) 基 地 名 稱 (3) 航 空地 名 (4) 機 場 : 緯度 (5) 頁 碼 。",
+    "restricted": false,
+    "id": 299
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 8,
+    "page": 50,
+    "question": "儀器 進",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 300
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 9,
+    "page": 50,
+    "question": "中 平面 圖 包含 哪些 資訊 ?",
+    "answer": "答 :(1) 助 導航 與 通信 資訊 (2) 高 度 (3) 程 序 。",
+    "restricted": false,
+    "id": 301
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 10,
+    "page": 50,
+    "question": "儀器 進 場 圖 中 側面 圖 包含 哪些 資訊 ?",
+    "answer": "答 :(1) 重 要 各 點 之 距離 、 高 度 及 航向 (2) 轉 換 空 層 與 轉 換 高 度 (3) 誤 失 進 場 程 序 。",
+    "restricted": false,
+    "id": 302
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 11,
+    "page": 50,
+    "question": "說 明 穿 降 圖 上 落地 最 低 限 度 印 有 CIRCLING 之 意義 ? 儀 附 2-318",
+    "answer": "答 : 繞 場 進 場 。",
+    "restricted": false,
+    "id": 303
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 12,
+    "page": 50,
+    "question": "說 明 穿 降 圖 上 印 有 RVV 或 RVR 之 意義 ? 儀 附 2-303",
+    "answer": "答 :RVV 跑道 能 見 度 數 值 、RVR 跑道 視 程 。",
+    "restricted": false,
+    "id": 304
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 13,
+    "page": 50,
+    "question": "到 達 誤 失 進 場 點 或 決定 高 度 CDH) 時, 若 發 生 何 種 狀況 下 , 則 實施 誤 失 進 場 程 序 ? 位 P14-286",
+    "answer": "答 :(1) 無 法 目視 跑道 或 附屬 設施 (2) 安全 落地 (3) 管 制 單位 指示 時 。",
+    "restricted": false,
+    "id": 305
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 14,
+    "page": 50,
+    "question": "申請 特 種 目視 飛 航 之 條 件 為 何 ?",
+    "answer": "答 : 必 須 保 持 不 進 雲 及 能 目視 地 面 或 水 面 , 並 應 1,500 公 尺 以 上 之 飛 航 能 見 度 。",
+    "restricted": false,
+    "id": 306
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 15,
+    "page": 50,
+    "question": "儀器 進 場 程 序 可 區 分 哪些 階段 ?",
+    "answer": "答 ; 到 場 、 初 始 、 中 間 、 最 後 及 誤 失 進 場 五 個 階段 。",
+    "restricted": false,
+    "id": 307
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 16,
+    "page": 50,
+    "question": "儀器 進 場 圖 五 大 區 塊 區 分 為 幾 大 區 塊 哪 幾 部 分 ? 位 P6-118",
+    "answer": "答 : 分 別 為 (1) 標 題 (2) 平 面 圖 (3) 側面 圖 (HIFR 落地 最 低 限度 及 附註 (5) 機 場 建設 略圖 。",
+    "restricted": false,
+    "id": 308
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 17,
+    "page": 50,
+    "question": "到 達 誤 失 進 場 點 或 決定 高 度 DH 發 生 下 列 何 種 情 況 則 實施 誤 失 進 場 程 序 ?",
+    "answer": "從: 無 法 目視 跑道 或 附屬 設施 、 無 法 安全 落地 、 管 制 單位 指示 時 -50-",
+    "restricted": false,
+    "id": 309
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 18,
+    "page": 51,
+    "question": "標 準 等 待 航 線 之 方式 ? 位 P9-164",
+    "answer": "答 : 實施 右 轉 彎 之 待命 。",
+    "restricted": false,
+    "id": 310
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 19,
+    "page": 51,
+    "question": "飛行 員 在 雷達 引導 過 程 中 , 應 複 誦 哪些 事項 且 須 按 管制 員 指示 去 執行 ?",
+    "answer": "答 : 航 向 、 高 度 (包括 離開 及 指定 之 高 度 ) 及 高 度 表 撥 定 值 。",
+    "restricted": false,
+    "id": 311
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 20,
+    "page": 51,
+    "question": "說 明 NOPT 2 EK ? 儀 附 1-300。",
+    "answer": "答 : 無 須 作 程序 轉 繼 。",
+    "restricted": false,
+    "id": 312
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 21,
+    "page": 51,
+    "question": "旋翼 機 高 度 6000 呎 ( 含 ) 以 下 之 最 大 待命 空 速 為 指示 空 速 多 少 濕 ?",
+    "answer": "答 :100 28",
+    "restricted": false,
+    "id": 313
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 22,
+    "page": 51,
+    "question": "何謂 ATIS (Automatic Terminal Information Service) ? 儀 附 1-295",
+    "answer": "答 : 自 動 終 端 資 料 廣播 服務 。",
+    "restricted": false,
+    "id": 314
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 23,
+    "page": 51,
+    "question": "等 待 航 線 之 直接 加 入 法 、 平 行 加 入 法 、 洲 滴 加 入 法 之 範圍 分 別 為 ?",
+    "answer": "答 :180 度 、110 度 、70 度",
+    "restricted": false,
+    "id": 315
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 24,
+    "page": 51,
+    "question": "說 明儀 器 飛 航 之 「 最 低 安全 返 場 油 量 (〔 保 險 油 量 )」(BINGO) WR? 儀 附 2-321",
+    "answer": "答 : 儀器 飛 航 時 , 以 自 起 飛 站 至 目的 地 及 由 目的 地 開 始 下 降 點 至 備用 機 場所 需 之 總 油 量 , 加 10% 計 算 所 加 10% 油 量 不 得 少 於 該 航空 器 巡航 速度 飛行 20 分 鐘 之 需要 量 。",
+    "restricted": false,
+    "id": 316
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 25,
+    "page": 51,
+    "question": "航空 器 以 何 速 度 飛行 時 , 可 獲得 最 長 之 航程 距離 ? 儀 附 2-322",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 317
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 26,
+    "page": 51,
+    "question": "可 不 實施 程序 轉 彎 的 方式 為 哪 三 種 ?",
+    "answer": "A i ATC 發 布 直 線 進 場 許 可 、 起 始 穿 降 經 由 等 待 航 線 進 行 、ATC 以 雷達 引導 至 最 後 進 場 航道",
+    "restricted": false,
+    "id": 318
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 27,
+    "page": 51,
+    "question": "儀器 進 場 最 低 安 全 高 度 提供 助 航 設施 周邊 多 少 海 淫 的 障礙 物資 料 ?",
+    "answer": "答 : 25 漂",
+    "restricted": false,
+    "id": 319
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 28,
+    "page": 51,
+    "question": "ILS 所 需 設 施 為 何 ?",
+    "answer": "答 : 下 滑 道 指示 器 、 水 平 情況 指示 器 、 外 信 標 臺",
+    "restricted": false,
+    "id": 320
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 29,
+    "page": 51,
+    "question": "非 精 確 進 場 - 機 場 搜索 雷達 (ASR), 管 制 員 將 告知 飛行 員 那 些 資訊 ?",
+    "answer": "3 $ : 使用 跑道 、MDA 高 度 、 剛 AP 位 置",
+    "restricted": false,
+    "id": 321
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 30,
+    "page": 51,
+    "question": "儀器階段學科問答 第30題",
+    "answer": ". 航空 器 何時 不 得 作 目 視 飛 航 儀 ?P7-137 答 : 在 管制 空域 內 於 飛 航 空 層 200 以 上 及 穿 音 速 或 超 音速 飛 航 30.",
+    "restricted": false,
+    "id": 322
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 31,
+    "page": 51,
+    "question": ". 一 般 而 言 LOC 發 射 之 有 效 範 圍 為 ?",
+    "answer": "答 答 11838 31",
+    "restricted": false,
+    "id": 323
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 32,
+    "page": 51,
+    "question": ". 一 般 而 言 LOC 於 10 漂 外 發 射 之 寬度 為 ?",
+    "answer": "答 : 左右 10 度 32.",
+    "restricted": false,
+    "id": 324
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 33,
+    "page": 51,
+    "question": ". LOC 之 信號 接收 頻段 為 ?",
+    "answer": "a 等 : 108. 1-111. 95MHZ",
+    "restricted": false,
+    "id": 325
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 34,
+    "page": 51,
+    "question": "儀器階段學科問答 第34題",
+    "answer": ". GP Z FNR T EAER G D E PI Pe TAR A 4R P4-80 -51-",
+    "restricted": false,
+    "id": 326
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 35,
+    "page": 52,
+    "question": "GP 之 下 滑 道 寬度 為 ?",
+    "answer": "FILAR",
+    "restricted": false,
+    "id": 327
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 36,
+    "page": 52,
+    "question": "當 盛行 能 見 度 或 使用 中 降落 跑道 RVR 值 低 於 多 少 公 尺 時 須 編 報 跑 道 視 程 ? 儀 附 2-303",
+    "answer": "答 :1500 AR e Fi THE E A Ah P4-78 答",
+    "restricted": false,
+    "id": 328
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 37,
+    "page": 52,
+    "question": "目視 進 場 滑 降 指 示 燈 (VASIS) 裝 設 於 跑道 兩 旁 , 接近 觸 地 區 附近 , 以 顏色 信號 燈光 系 統 指示 目視 下",
+    "answer": "請查看原始PDF。",
+    "restricted": false,
+    "id": 329
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 38,
+    "page": 52,
+    "question": "清 道 , 此 系 統 適用 於 哪個 階段 ?",
+    "answer": "答 : 最 後 進 場 階段",
+    "restricted": false,
+    "id": 330
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 39,
+    "page": 52,
+    "question": "當 使用 VASI 時 , 飛 機 高 於 下 滑 道 所 見 燈 光 ?",
+    "answer": "答 : 白色",
+    "restricted": false,
+    "id": 331
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 40,
+    "page": 52,
+    "question": "當 使用 VASI 時 , 飛 機 低 於 下 滑 道 所 見 燈光 ?",
+    "answer": "$ $ 紅色 40.",
+    "restricted": false,
+    "id": 332
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 41,
+    "page": 52,
+    "question": ". 當 使用 VASI 時 , 飛 機 在 下 滑 道上 所 見 燈光 為 ?",
+    "answer": "$ ngaia 41",
+    "restricted": false,
+    "id": 333
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 42,
+    "page": 52,
+    "question": "ASR 五 邊 管 制 員 至 少 每 幾 秒 連絡 乙 炊 , 否 則 將 被 視 為 失去 通信 聯絡 ?",
+    "answer": "答 答 :20 秒",
+    "restricted": false,
+    "id": 334
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 43,
+    "page": 52,
+    "question": "PAR 五 邊 管 制 員 至 少 每 幾 秒 連 絡 乙 次 , 否 則 將 被 視 為 失去 通信 聯絡 ?",
+    "answer": "答 :5 秒",
+    "restricted": false,
+    "id": 335
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 44,
+    "page": 52,
+    "question": "雷達 Mode 3/ 上 A 具備 多 少 個 編碼 ? 儀 附 8-385",
+    "answer": "答 5 : 4096 個",
+    "restricted": false,
+    "id": 336
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 45,
+    "page": 52,
+    "question": "直昇機 專用 進 場 竹 類 為 何 ?",
+    "answer": "答 答 : 屬於 上 類 進 場 程 序 , 且 限定 空 速 不 超 出 90 漂 / 時 45.",
+    "restricted": false,
+    "id": 337
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 46,
+    "page": 52,
+    "question": ". 標準 等 待 航 線 由 何 組 成 ?",
+    "answer": "答 : 由 2 個 右 轉 180 度 轉 彎 及 兩 個 等 待 邊 所 組 成 。",
+    "restricted": false,
+    "id": 338
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 47,
+    "page": 52,
+    "question": "儀器階段學科問答 第47題",
+    "answer": ". FEAE RER b E A ATAA P6-108 4 $ : 具有 45” 彎 折 點 的 黑色 實 線 並 可 能 含 指 定之 方向",
+    "restricted": false,
+    "id": 339
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 48,
+    "page": 52,
+    "question": "PAR 係 指 ?",
+    "answer": "答 : 精 確 進 場 雪 達 、 能 提供 航道 及 下 滑 道 指示 、 能 提供 飛行 員 偏離 航道 及 下 滑 道 情況",
+    "restricted": false,
+    "id": 340
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 49,
+    "page": 52,
+    "question": "ASR 係 指 ?",
+    "answer": "答 : 菲 精確 進 場 、 能 提供 使用 跑道 、 能 提供 MDA 高 度 (直線 進 場 ) 及 MAP 位 置 。",
+    "restricted": false,
+    "id": 341
+  },
+  {
+    "section": "儀器階段學科問答",
+    "number": 50,
+    "page": 52,
+    "question": "飛機 在 地 面 ( 地 形 、 地 狐 、 地 障 ) 之 垂直 距離 稱 為 ?",
+    "answer": "答 : 絕 對 高 度",
+    "restricted": false,
+    "id": 342
+  }
+]

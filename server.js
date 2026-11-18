@@ -1,18 +1,36 @@
-import express from "express";
-import dotenv from "dotenv";
-import OpenAI from "openai";
-import path from "path";
-import { fileURLToPath } from "url";
-dotenv.config();
-const __filename=fileURLToPath(import.meta.url), __dirname=path.dirname(__filename);
-const app=express(); app.use(express.json({limit:"2mb"})); app.use(express.static(__dirname));
-const port=process.env.PORT||3000, model=process.env.OPENAI_MODEL||"gpt-6-luna";
-const client=process.env.OPENAI_API_KEY?new OpenAI({apiKey:process.env.OPENAI_API_KEY}):null;
-function requireAI(res){if(!client){res.status(500).json({error:"OPENAI_API_KEY is not configured on the server."});return false}return true}
-async function ask(input){const r=await client.responses.create({model,input});return r.output_text||""}
-function parseJSON(raw){const s=raw.replace(/```json/gi,"").replace(/```/g,"").trim(),a=s.indexOf("{"),b=s.lastIndexOf("}");if(a<0||b<a)throw Error("AI 回傳格式不正確。");return JSON.parse(s.slice(a,b+1))}
-app.post("/api/ai/tutor",async(req,res)=>{if(!requireAI(res))return;try{res.json({text:await ask(`You are the AI Tutor inside Andy's Goals. Answer in Traditional Chinese. Use only general aviation education and the supplied study context. Do not provide military tactics, operational procedures, or classified information.\nContext:\n${req.body.context||""}\nQuestion:\n${req.body.message||""}`)})}catch(e){res.status(500).json({error:e.message})}});
-app.post("/api/ai/quiz",async(req,res)=>{if(!requireAI(res))return;try{const raw=await ask(`Create a study quiz using ONLY these supplied flashcards. Do not invent facts. Use Traditional Chinese. Create exactly 5 questions: 3 multiple choice and 2 short answer. Prioritize weak areas. Return ONLY JSON with title,instructions,questions. Each MCQ needs options and exact answer; each short answer needs key points and explanation.\nFLASHCARDS:\n${JSON.stringify(req.body.cards||[])}\nWEAK AREAS:\n${JSON.stringify(req.body.weakAreas||[])}`);const quiz=parseJSON(raw);if(!Array.isArray(quiz.questions)||quiz.questions.length!==5)throw Error("題目格式不完整。");res.json({quiz})}catch(e){res.status(500).json({error:e.message})}});
-app.post("/api/ai/grade",async(req,res)=>{if(!requireAI(res))return;try{const raw=await ask(`Grade the student's answers using ONLY this quiz answer key. Return ONLY JSON: {"results":[{"id":"q1","correct":true,"correctAnswer":"...","explanation":"...","feedback":"..."}],"weakAreas":["..."]}. For short answers accept equivalent wording when the key concept is correct. QUIZ:${JSON.stringify(req.body.quiz)} ANSWERS:${JSON.stringify(req.body.answers||[])}`);const g=parseJSON(raw),map=new Map((g.results||[]).map(x=>[x.id,x]));const results=req.body.quiz.questions.map(q=>{const x=map.get(q.id)||{};return{id:q.id,correct:Boolean(x.correct),correctAnswer:x.correctAnswer||q.answer,explanation:x.explanation||q.explanation,feedback:x.feedback||"請複習這張字卡。"}});const score=results.filter(x=>x.correct).length;res.json({score,total:results.length,percentage:Math.round(score/results.length*100),results,weakAreas:[...new Set([...(g.weakAreas||[]),...req.body.quiz.questions.filter((q,i)=>!results[i].correct).map(q=>q.concept)])]})}catch(e){res.status(500).json({error:e.message})}});
-app.get("/health",(req,res)=>res.json({ok:true,name:"Andy’s Goals"}));
-app.listen(port,()=>console.log(`Andy’s Goals running on port ${port}`));
+require('dotenv').config();
+const express = require('express');
+const path = require('path');
+const OpenAI = require('openai');
+const app = express();
+app.use(express.json({limit:'2mb'}));
+app.use(express.static(path.join(__dirname)));
+const client = new OpenAI({apiKey: process.env.OPENAI_API_KEY});
+const MODEL = process.env.OPENAI_MODEL || 'gpt-6-luna';
+app.get('/health',(req,res)=>res.json({ok:true}));
+app.post('/api/ai/mcq', async (req,res)=>{
+  try{
+    const {question,answer} = req.body||{};
+    if(!question||!answer) return res.status(400).json({error:'缺少題目或固定答案'});
+    const prompt=`你是航空學習測驗編題助教。繁體中文。固定正確答案不可修改、不可縮短成不同意思。請為下面固定題目製作4個選項，其中只有1個正確，其餘3個是合理但錯誤的干擾選項。回傳JSON：{"options":["...","...","...","..."],"correctIndex":0,"explanation":"..."}。不要加入作戰、戰術或敏感軍事操作資訊。\n題目：${question}\n固定正確答案：${answer}`;
+    const r=await client.responses.create({model:MODEL,input:prompt});
+    const raw=r.output_text||'';
+    const match=raw.match(/\{[\s\S]*\}/);
+    if(!match) throw new Error('bad json');
+    const data=JSON.parse(match[0]);
+    if(!Array.isArray(data.options)||data.options.length!==4||typeof data.correctIndex!=='number') throw new Error('invalid options');
+    res.json(data);
+  }catch(e){res.status(500).json({error:'選項生成失敗，請改用簡答模式。'});}
+});
+app.post('/api/ai/grade', async (req,res)=>{
+  try{
+    const {question,answer,studentAnswer} = req.body||{};
+    if(!question||!answer||studentAnswer==null) return res.status(400).json({error:'缺少資料'});
+    const prompt=`你是嚴謹的航空口試學習助教。請依「固定標準答案」判斷學生簡答是否達到核心重點。不要要求逐字相同；數字、單位、時間限制、關鍵名詞錯誤要判錯。回傳JSON：{"correct":true,"score":100,"feedback":"...","correctAnswer":"..."}。繁體中文。\n題目：${question}\n固定標準答案：${answer}\n學生答案：${studentAnswer}`;
+    const r=await client.responses.create({model:MODEL,input:prompt});
+    const match=(r.output_text||'').match(/\{[\s\S]*\}/);
+    if(!match) throw new Error('bad json');
+    res.json(JSON.parse(match[0]));
+  }catch(e){res.status(500).json({error:'評分失敗，請翻卡查看固定答案。'});}
+});
+app.listen(process.env.PORT||3000,()=>console.log('Andys Goals v7 running'));
