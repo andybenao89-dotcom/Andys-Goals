@@ -1,61 +1,10 @@
-<!doctype html>
-<html lang="zh-Hant">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#111827">
-  <title>Andy’s Goals</title>
-  <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-  <main class="app">
-    <header class="hero"><div><h1>Andy’s Goals</h1><p>AI Personal Learning Hub</p></div><span class="badge">AI</span></header>
-    <nav class="nav">
-      <button onclick="showPage('heli')">🚁 Helicopter</button>
-      <button onclick="showPage('spanish')">🇪🇸 Spanish</button>
-      <button onclick="showPage('invest')">📈 Investing</button>
-      <button onclick="showPage('tutor')">🤖 AI Tutor</button>
-    </nav>
-
-    <section id="heli" class="page active">
-      <h2>🚁 Helicopter Academy</h2>
-      <p>從零開始，逐章學習直升機原理、系統與安全知識。</p>
-      <label for="chapter">選擇課程章節</label>
-      <select id="chapter"></select>
-      <div class="actions">
-        <button class="primary" onclick="generateLesson()">Generate Lesson</button>
-        <button onclick="generateQuiz('heli')">Start Quiz</button>
-      </div>
-      <article id="heliOut" class="output">選擇章節後開始學習。</article>
-      <section id="heliQuiz" class="quiz-area"></section>
-      <section id="heliWeak" class="weak-panel"></section>
-    </section>
-
-    <section id="spanish" class="page">
-      <h2>🇪🇸 Spanish Academy</h2>
-      <p>每週 4 天、每天 10 個單字，從零開始累積西班牙文。</p>
-      <div class="actions">
-        <button class="primary" onclick="generateSpanish()">Generate Today’s 10 Words</button>
-        <button onclick="generateQuiz('spanish')">Start Spanish Quiz</button>
-      </div>
-      <article id="spanishOut" class="output">今天的課程會由 AI 生成。</article>
-      <section id="spanishQuiz" class="quiz-area"></section>
-      <section id="spanishWeak" class="weak-panel"></section>
-    </section>
-
-    <section id="invest" class="page">
-      <h2>📈 Investing</h2>
-      <p>投資學習區正在建置中。原有頁面保留。</p>
-    </section>
-
-    <section id="tutor" class="page">
-      <h2>🤖 AI Tutor</h2>
-      <p>可以詢問直升機原理、航空知識或西班牙文學習問題。</p>
-      <textarea id="question" placeholder="例如：什麼是 Translational Lift？"></textarea>
-      <button class="primary" onclick="askTutor()">Ask AI</button>
-      <article id="tutorOut" class="output"></article>
-    </section>
-  </main>
-  <script src="/app.js"></script>
-</body>
-</html>
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Andy’s Goals</title><link rel="stylesheet" href="/styles.css"></head><body><main class="app">
+<header class="hero"><div><h1>Andy’s Goals</h1><p>AI Personal Learning Hub</p></div><span class="badge">AI</span></header>
+<nav class="nav"><button onclick="showPage('heli')">🚁 Helicopter</button><button onclick="showPage('spanish')">🇪🇸 Spanish</button><button onclick="showPage('invest')">📈 Investing</button><button onclick="showPage('tutor')">🤖 AI Tutor</button></nav>
+<section id="heli" class="page active"><h2>🚁 Helicopter Academy</h2><div class="fixed-note">📚 固定教材：章節與字卡不會每次重新生成。</div><label>選擇固定章節</label><select id="chapter"></select><article id="chapterLesson" class="output"></article>
+<h3>🗂️ Flashcards 字卡</h3><p>點字卡翻面；可標記熟悉／不熟。</p><div id="flashcards" class="flashcards"></div><div class="card-controls"><button onclick="prevCard()">← 上一張</button><span id="cardCounter"></span><button onclick="nextCard()">下一張 →</button></div>
+<div class="actions"><button class="primary" onclick="startQuiz()">Start Quiz</button><button onclick="askTutorAboutCard()">Ask AI About This Card</button></div><section id="quiz" class="quiz-area"></section><section id="weak" class="weak-panel"></section></section>
+<section id="spanish" class="page"><h2>🇪🇸 Spanish Academy</h2><p>原有區域保留，之後可用相同固定教材＋字卡架構加入。</p></section>
+<section id="invest" class="page"><h2>📈 Investing</h2><p>投資學習區保留。</p></section>
+<section id="tutor" class="page"><h2>🤖 AI Tutor</h2><textarea id="question" placeholder="例如：請解釋這張字卡"></textarea><button class="primary" onclick="askTutor()">Ask AI</button><article id="tutorOut" class="output"></article></section>
+</main><script src="/flashcards.js"></script><script src="/chapters.js"></script><script src="/app.js"></script></body></html>

@@ -1,164 +1,19 @@
-const chapters = [
-  "Helicopter Fundamentals", "The Four Forces", "Rotor Blades & Airfoils",
-  "How a Helicopter Generates Lift", "Cyclic", "Collective", "Anti-torque System",
-  "Swashplate", "Rotor Disc", "Angle of Attack", "Translational Lift", "Ground Effect",
-  "Dissymmetry of Lift", "Retreating Blade Stall", "Autorotation", "Turboshaft Engine",
-  "Transmission", "Main Rotor System", "Tail Rotor System"
-];
-
-const chapterSelect = document.querySelector("#chapter");
-chapters.forEach((chapter, index) => chapterSelect.add(new Option(`${index + 1}. ${chapter}`, chapter)));
-
-let lastLesson = "";
-let currentQuizzes = { heli: null, spanish: null };
-
-function showPage(id) {
-  document.querySelectorAll(".page").forEach(page => page.classList.remove("active"));
-  document.querySelector(`#${id}`).classList.add("active");
-}
-async function postJSON(url, body) {
-  const response = await fetch(url, {
-    method: "POST", headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body)
-  });
-  const data = await response.json();
-  if (!response.ok) throw new Error(data.error || "Request failed");
-  return data;
-}
-function setText(id, text) { document.querySelector(`#${id}`).textContent = text; }
-function getWeak(mode) {
-  try { return JSON.parse(localStorage.getItem(`${mode}WeakAreas`) || "[]"); }
-  catch { return []; }
-}
-function saveWeak(mode, items) {
-  const merged = [...new Set([...getWeak(mode), ...items])].slice(-30);
-  localStorage.setItem(`${mode}WeakAreas`, JSON.stringify(merged));
-  renderWeak(mode);
-}
-function renderWeak(mode) {
-  const target = document.querySelector(`#${mode}Weak`);
-  const weak = getWeak(mode);
-  target.innerHTML = weak.length
-    ? `<h3>📌 我的待加強觀念</h3><p>${weak.map(escapeHTML).join("、")}</p><button class="small-button" onclick="clearWeak('${mode}')">清除弱項紀錄</button>`
-    : `<h3>📌 我的待加強觀念</h3><p>目前還沒有錯題紀錄。完成測驗後，系統會整理需要加強的觀念。</p>`;
-}
-function clearWeak(mode) {
-  localStorage.removeItem(`${mode}WeakAreas`);
-  renderWeak(mode);
-}
-function escapeHTML(value) {
-  return String(value).replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c]));
-}
-
-async function generateLesson() {
-  const output = document.querySelector("#heliOut");
-  output.textContent = "AI 正在生成課程…";
-  try {
-    const data = await postJSON("/api/ai/lesson", { chapter: chapterSelect.value });
-    lastLesson = data.text;
-    output.textContent = lastLesson;
-  } catch (e) { output.textContent = `錯誤：${e.message}`; }
-}
-
-async function generateQuiz(mode) {
-  const target = document.querySelector(`#${mode}Quiz`);
-  target.innerHTML = `<p class="loading">AI 正在準備測驗題目…</p>`;
-  try {
-    const topic = mode === "heli" ? chapterSelect.value : "Beginner Spanish vocabulary and phrases";
-    const data = await postJSON("/api/ai/quiz", {
-      mode, topic, lesson: mode === "heli" ? lastLesson : document.querySelector("#spanishOut").textContent,
-      weakAreas: getWeak(mode)
-    });
-    currentQuizzes[mode] = data.quiz;
-    renderQuiz(mode, data.quiz);
-  } catch (e) { target.textContent = `錯誤：${e.message}`; }
-}
-
-function renderQuiz(mode, quiz) {
-  const target = document.querySelector(`#${mode}Quiz`);
-  const questionsHTML = quiz.questions.map((q, i) => {
-    const control = q.type === "mcq"
-      ? `<div class="options">${(q.options || []).map((opt, j) =>
-          `<label class="option"><input type="radio" name="${mode}-${escapeHTML(q.id)}" value="${escapeHTML(opt)}"><span>${escapeHTML(opt)}</span></label>`
-        ).join("")}</div>`
-      : `<textarea class="short-answer" id="${mode}-${escapeHTML(q.id)}" placeholder="在這裡輸入你的答案…" rows="3"></textarea>`;
-    return `<article class="question-card" id="${mode}-card-${escapeHTML(q.id)}">
-      <h4>Q${i + 1}. ${escapeHTML(q.question)}</h4>${control}
-      <div class="question-result" id="${mode}-result-${escapeHTML(q.id)}"></div>
-    </article>`;
-  }).join("");
-  target.innerHTML = `<div class="quiz-heading"><h3>${escapeHTML(quiz.title || "AI 練習測驗")}</h3><p>${escapeHTML(quiz.instructions || "請完成以下 5 題。")}</p></div>
-    ${questionsHTML}
-    <button class="primary submit-quiz" id="${mode}-submit" onclick="submitQuiz('${mode}')">Submit Answers</button>
-    <div id="${mode}-score" class="score-panel"></div>`;
-}
-
-async function submitQuiz(mode) {
-  const quiz = currentQuizzes[mode];
-  if (!quiz) return;
-  const answers = quiz.questions.map(q => {
-    let answer = "";
-    if (q.type === "mcq") {
-      const selected = document.querySelector(`input[name="${mode}-${CSS.escape(q.id)}"]:checked`);
-      answer = selected ? selected.value : "";
-    } else {
-      answer = document.querySelector(`#${mode}-${CSS.escape(q.id)}`).value.trim();
-    }
-    return { id: q.id, answer };
-  });
-  if (answers.some(a => !a.answer)) {
-    alert("還有題目沒有作答，請完成全部題目再提交。");
-    return;
-  }
-  const button = document.querySelector(`#${mode}-submit`);
-  button.disabled = true;
-  button.textContent = "AI 正在批改…";
-  try {
-    const result = await postJSON("/api/ai/grade", { quiz, answers });
-    const scoreBox = document.querySelector(`#${mode}-score`);
-    scoreBox.innerHTML = `<h3>測驗結果：${result.score} / ${result.total} 分</h3><p class="score-number">${result.percentage}%</p>`;
-    result.results.forEach((r, index) => {
-      const q = quiz.questions.find(item => item.id === r.id);
-      const box = document.querySelector(`#${mode}-result-${CSS.escape(r.id)}`);
-      box.innerHTML = `<p class="${r.correct ? "correct" : "incorrect"}">${r.correct ? "✓ 答對" : "✗ 答錯"}</p>
-        <p><strong>參考答案：</strong>${escapeHTML(r.correctAnswer)}</p>
-        <p><strong>解析：</strong>${escapeHTML(r.explanation)}</p>
-        <p><strong>批改：</strong>${escapeHTML(r.feedback)}</p>`;
-      document.querySelector(`#${mode}-card-${CSS.escape(r.id)}`).classList.add(r.correct ? "is-correct" : "is-wrong");
-    });
-    if (result.weakAreas?.length) saveWeak(mode, result.weakAreas);
-    else renderWeak(mode);
-    button.textContent = "已完成批改";
-  } catch (e) {
-    alert(`批改失敗：${e.message}`);
-    button.disabled = false;
-    button.textContent = "Submit Answers";
-  }
-}
-
-async function generateSpanish() {
-  const output = document.querySelector("#spanishOut");
-  output.textContent = "AI 正在準備今天的 10 個單字…";
-  try {
-    const learned = JSON.parse(localStorage.getItem("spanishLearned") || "[]");
-    const day = Number(localStorage.getItem("spanishDay") || "1");
-    const data = await postJSON("/api/ai/spanish-day", { day, learned });
-    output.textContent = data.text;
-    localStorage.setItem("spanishDay", String(day + 1));
-    localStorage.setItem("spanishLearned", JSON.stringify([...learned, `Day ${day}`]));
-  } catch (e) { output.textContent = `錯誤：${e.message}`; }
-}
-
-async function askTutor() {
-  const question = document.querySelector("#question").value.trim();
-  const output = document.querySelector("#tutorOut");
-  if (!question) return;
-  output.textContent = "AI 正在思考…";
-  try {
-    const data = await postJSON("/api/ai/tutor", { message: question, context: lastLesson });
-    output.textContent = data.text;
-  } catch (e) { output.textContent = `錯誤：${e.message}`; }
-}
-
-renderWeak("heli");
-renderWeak("spanish");
+let cardIndex=0,currentQuiz=null,lastTutorContext="";
+const chapterSelect=document.querySelector("#chapter");
+window.FIXED_CHAPTERS.forEach((x,i)=>chapterSelect.add(new Option(x,String(i))));
+chapterSelect.addEventListener("change",renderChapter);
+function showPage(id){document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));document.querySelector("#"+id).classList.add("active")}
+function esc(v){return String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function renderChapter(){const i=Number(chapterSelect.value);const lessons=["固定章節：Helicopter Fundamentals。此版本已加入你提供的固定題庫字卡；其餘章節保留固定名稱，正式教材內容會以你後續提供的教材為準，不由AI自行改寫。","固定章節：The Four Forces。教材內容待加入固定來源。","固定章節：Rotor Blades & Airfoils。教材內容待加入固定來源。","固定章節：How a Helicopter Generates Lift。教材內容待加入固定來源。","固定章節：Cyclic。教材內容待加入固定來源。","固定章節：Collective。教材內容待加入固定來源。","固定章節：Anti-torque System。教材內容待加入固定來源。","固定章節：Swashplate。教材內容待加入固定來源。","固定章節：Rotor Disc。教材內容待加入固定來源。","固定章節：Angle of Attack。教材內容待加入固定來源。","固定章節：Translational Lift。教材內容待加入固定來源。","固定章節：Ground Effect。教材內容待加入固定來源。","固定章節：Dissymmetry of Lift。教材內容待加入固定來源。","固定章節：Retreating Blade Stall。教材內容待加入固定來源。","固定章節：Autorotation。教材內容待加入固定來源。","固定章節：Turboshaft Engine。教材內容待加入固定來源。","固定章節：Transmission。教材內容待加入固定來源。","固定章節：Main Rotor System。教材內容待加入固定來源。","固定章節：Tail Rotor System。教材內容待加入固定來源。"];document.querySelector("#chapterLesson").textContent=lessons[i];renderCard()}
+function renderCard(){const c=window.SOURCE_FLASHCARDS[cardIndex];document.querySelector("#cardCounter").textContent=`${cardIndex+1} / ${window.SOURCE_FLASHCARDS.length}`;document.querySelector("#flashcards").innerHTML=`<div class="flashcard" onclick="this.classList.toggle('flipped')"><div class="face front"><span>${esc(c.category)}</span><h3>Q</h3><p>${esc(c.question)}</p><small>點一下翻牌查看答案</small></div><div class="face back"><span>答案</span><h3>A</h3><p>${esc(c.answer)}</p><small>${esc(c.source)}</small></div></div><div class="familiar"><button onclick="markCard('known')">👍 熟悉</button><button onclick="markCard('weak')">👎 不熟</button></div>`;lastTutorContext=`題目：${c.question}\n答案：${c.answer}\n來源：${c.source}`}
+function prevCard(){cardIndex=(cardIndex-1+window.SOURCE_FLASHCARDS.length)%window.SOURCE_FLASHCARDS.length;renderCard()}
+function nextCard(){cardIndex=(cardIndex+1)%window.SOURCE_FLASHCARDS.length;renderCard()}
+function markCard(kind){let a=JSON.parse(localStorage.getItem("flashcardWeak")||"[]"),c=window.SOURCE_FLASHCARDS[cardIndex];if(kind==="weak")a=[...new Set([...a,c.category])];else a=a.filter(x=>x!==c.category);localStorage.setItem("flashcardWeak",JSON.stringify(a));renderWeak()}
+function renderWeak(){let a=JSON.parse(localStorage.getItem("flashcardWeak")||"[]");document.querySelector("#weak").innerHTML=`<h3>📌 待加強</h3><p>${a.length?a.map(esc).join("、"):"目前沒有標記不熟的觀念。"}</p>`}
+async function postJSON(url,body){const r=await fetch(url,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});const d=await r.json();if(!r.ok)throw Error(d.error||"Request failed");return d}
+async function startQuiz(){const area=document.querySelector("#quiz");area.innerHTML="<p>AI 正在根據固定字卡出題…</p>";try{const data=await postJSON("/api/ai/quiz",{cards:window.SOURCE_FLASHCARDS,weakAreas:JSON.parse(localStorage.getItem("flashcardWeak")||"[]")});currentQuiz=data.quiz;renderQuiz()}catch(e){area.innerHTML=`<p class="error">出題失敗：${esc(e.message)}</p>`}}
+function renderQuiz(){document.querySelector("#quiz").innerHTML=`<div class="quiz-heading"><h3>${esc(currentQuiz.title)}</h3><p>${esc(currentQuiz.instructions)}</p></div>`+currentQuiz.questions.map((q,i)=>`<article class="question-card" id="qcard-${esc(q.id)}"><h4>Q${i+1}. ${esc(q.question)}</h4>${q.type==="mcq"?`<div class="options">${q.options.map(o=>`<label class="option"><input type="radio" name="answer-${esc(q.id)}" value="${esc(o)}"><span>${esc(o)}</span></label>`).join("")}</div>`:`<textarea class="short-answer" id="answer-${esc(q.id)}" placeholder="輸入答案"></textarea>`}<div id="result-${esc(q.id)}"></div></article>`).join("")+`<button class="primary submit-quiz" id="submitQuiz" onclick="submitQuiz()">📤 Submit Answers</button><div id="score"></div>`}
+async function submitQuiz(){const answers=currentQuiz.questions.map(q=>{let a="";if(q.type==="mcq"){const x=document.querySelector(`input[name="answer-${CSS.escape(q.id)}"]:checked`);a=x?x.value:""}else a=document.querySelector(`#answer-${CSS.escape(q.id)}`)?.value.trim()||"";return{id:q.id,answer:a}});if(answers.some(x=>!x.answer)){alert("請先完成全部題目。");return}const b=document.querySelector("#submitQuiz");b.disabled=true;b.textContent="AI 正在批改…";try{const r=await postJSON("/api/ai/grade",{quiz:currentQuiz,answers});document.querySelector("#score").innerHTML=`<div class="score-panel"><h3>成績：${r.score} / ${r.total}</h3><div class="big-score">${r.percentage}%</div></div>`;r.results.forEach(x=>{document.querySelector("#result-"+CSS.escape(x.id)).innerHTML=`<p class="${x.correct?"correct":"incorrect"}">${x.correct?"✓ 答對":"✗ 答錯"}</p><p><b>正確答案：</b>${esc(x.correctAnswer)}</p><p><b>解析：</b>${esc(x.explanation)}</p><p><b>回饋：</b>${esc(x.feedback)}</p>`;document.querySelector("#qcard-"+CSS.escape(x.id)).classList.add(x.correct?"is-correct":"is-wrong")});b.textContent="已完成"}catch(e){alert("批改失敗："+e.message);b.disabled=false;b.textContent="📤 Submit Answers"}}
+async function askTutor(){const q=document.querySelector("#question").value.trim();if(!q)return;document.querySelector("#tutorOut").textContent="AI 正在思考…";try{const d=await postJSON("/api/ai/tutor",{message:q,context:lastTutorContext});document.querySelector("#tutorOut").textContent=d.text}catch(e){document.querySelector("#tutorOut").textContent="錯誤："+e.message}}
+async function askTutorAboutCard(){showPage("tutor");document.querySelector("#question").value="請用簡單方式解釋這張字卡的內容，並告訴我最需要記住的重點。";await askTutor()}
+renderChapter();renderWeak();
